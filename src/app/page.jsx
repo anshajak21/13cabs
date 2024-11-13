@@ -323,7 +323,7 @@ export default function Home() {
                         <p>We’re the best in your town</p>
                         <h2>Welcome to the <br/> most trusted <br/> company</h2>
                     </div>
-                    <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humor or random word which don't look even slightly believable you are going to use a passage.</p>
+                    <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humor or random word which don&apos;t look even slightly believable you are going to use a passage.</p>
                     <hr className="style-one" />
                     <div className="tag-line">
                         <span>Safe .</span>
@@ -430,7 +430,7 @@ export default function Home() {
                     <div className="col-lg-6">
                         <div className="about-image-block">
                             <img src="/img/resources/choise-1-1.png" alt="Awesome Image" />
-                            <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don't look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn't anything embarrassing.</p>
+                            <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don&apos;t look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn&apos;t anything embarrassing.</p>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -446,7 +446,7 @@ export default function Home() {
                                     <h3>We’re specialized in providing a high quality service</h3>
                                 </div>
                             </div>
-                            <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don't look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn't anything embarrassing.</p>
+                            <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don&apos;t look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn&apos;t anything embarrassing.</p>
                             <hr className="style-one" />
                             <div className="call-block">
                                 <div className="left-block">

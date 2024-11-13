@@ -22,7 +22,7 @@ export default function About() {
                             <p>Few words about conexi</p>
                             <h2>Learn about our <br /> taxi company</h2>
                         </div>
-                        <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don't look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn't anything embarrassing.</p>
+                        <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don&apos;t look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn&apos;t anything embarrassing.</p>
                         <a href="#" class="about-btn">Discover More</a>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ export default function About() {
                         <div class="history-content history-content-one-pager">
                             <div class="pager-item active" >
                                 <h3>1987</h3>
-                                <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don't look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn't anything embarrassing.</p>
+                                <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don&apos;t look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn&apos;t anything embarrassing.</p>
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ export default function About() {
                         <div class="history-content history-content-one-pager">
                             <div class="pager-item active" >
                                 <h3>1987</h3>
-                                <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don't look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn't anything embarrassing.</p>
+                                <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don&apos;t look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn&apos;t anything embarrassing.</p>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,7 @@ export default function About() {
                         <div class="history-content history-content-one-pager">
                             <div class="pager-item active" >
                                 <h3>1987</h3>
-                                <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don't look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn't anything embarrassing.</p>
+                                <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don&apos;t look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn&apos;t anything embarrassing.</p>
                             </div>
                         </div>
                     </div>
