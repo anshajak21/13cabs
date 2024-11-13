@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "types/**/*.d.ts",
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "build/types/**/*.ts"
+    // "src/app/api/user-agent/route.js",
+    // "src/app/api/location/service/route.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "baseUrl": "./",
+  "paths": {
+    "@/*": [
+      "src/*"
+    ] // Adjust the path to your project structure
+  }
+}

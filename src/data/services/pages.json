@@ -1,0 +1,203 @@
+{
+    "chatswood":{
+        "name": "Chatswood",
+        "title": "Chatswood Taxi Services| Reliable and Safest | Apex Maxi - 24/7 Service |  Call 2 8188 3546",
+        "description": "Looking for a dependable Chatswood taxi service? Apex Maxi offers prompt, safe, and comfortable rides around Chatswood. Call our Taxis Number 2 8188 3546 now.",
+        "keywords": "Chatswood Taxi Services, Reliable Cabs and Safest Cabs, Apex Maxi - 24/7 Taxi Service",
+        "banner": {
+            "image": "/img/location/chatswood.webp",
+            "title": "Best Taxi Services in Chatswood",
+            "text": "<p>We offer the best Taxi services in Chatswood that includes Airport Transfers, SUVs,<br/> Maxi-taxi, Baby seat taxi, Wheelchair Taxis and Premium Silver service.<br/>Chatswood taxi services include surrounding suburbs such as Sydney CBD or Harbor 24/7. <br/>Chatswood taxis are equipped with GPS, Fastest pickup and drop-off at your location ever. <br/>Ready to explore? Book now! Just call Chatswood taxi services 2 8188 3546</p>"
+        },
+        "services": {
+            "image": "/img/location/chatswood.webp",
+            "title": "Taxi Services in Chatswood ",
+            "list": [
+                {
+                    "name": "Airport transfers",
+                    "desc": "Quickest ride to the airport.<br/>Faster than trains, comfortable than bus.",
+                    "link":"/service"
+                },
+                {
+                    "name": "Maxi-Taxi Group Travel",
+                    "desc": "Extra luggage convenience, complete group fun.",
+                    "link":"/service"
+                },
+                {
+                    "name": "SUV",
+                    "desc": "Luxurious, comfortable, extra space for everything.",
+                    "link":"/service"
+                },
+                {
+                    "name": "Wheelchair Accessible taxis (WAT’s)",
+                    "desc": "Comfortable accommodation for handicapped passengers.",
+                    "link":"/service"
+                },
+                {
+                    "name": "Baby Seat Taxi",
+                    "desc": "Secure ride for your baby and your family.",
+                    "link":"/service"
+                },
+                {
+                    "name": "Premium Silver service",
+                    "desc": "Stylish ride, premium services at Reliable cost.",
+                    "link":"/service"
+                }
+            ]
+        },
+        "location": {
+            "html" :
+                "<h3 style='color: var(--theme-green-color);'>Taxis to Chatswood, Sydney</h3><p>Book your apex taxi for your Chatswood trips and get your fare details before the ride starts. Reliable rides with our fixed price, because we believe in straight forward. Planning something on the weekend, don't miss the chance to explore Sydney’s best-either it's the harbor or the CBD.</p><h5>How much time will you spend in Apex taxi?</h5><p> It’s approximately 23 Km . You need to be covered from Sydney airport. It may take approximately 25-minute to 3-minute. Completely depending on the traffic conditions. </p><h5>Never been in Chatswood?</h5><p> Just landed at Sydney Airport and want to visit “Chatswood”. So, please join Apex Maxi and book your comfortable ride at a reliable cost. Our experienced drivers will help you to get the best vibe of the suburb as a localite. Book now the best taxi service in Chatswood. </p><h5>Things to do!</h5><p> Chatswood has all the things in one package, cuisine, marketplace and chill suburb. Planning something on the weekend, don't miss the chance to explore Sydney’s best-  either it's the harbor or the CBD. Get the most safest, most reliable and most comfortable taxi services in Chatswood.</p><h5>Book your ride and enjoy at a reliable cost.</h5>"
+        },
+        "qusetionset1" : [
+            "<h3 style='color: var(--theme-green-color);'>Why do you have to choose Apex Maxi?</h3>",
+            "<h5>Share a ride with Apex Maxi:</h5><p>Obviously, Ride-sharing with Apex Maxi is so easy. Just click on multiple stops or pickups when you book the ride, or you can give your details to the driver when you get in. We will make it even smoother. Just pick up your preferred payment method.</p>",
+            "<h5>Can pre-book the ride:</h5><p>Oh wow! You can get your instant booking with Apex Maxi and you can schedule your ride for 7 days in advance also. There is no need to stress about multiple bookings; our online system will handle it perfectly. </p>",
+            "<h5>No hidden charges:</h5><p>You will pay what we have shown to you before the ride. </p>",
+            "<h5>Flexibility:</h5><p>You may reserve your ride up to 7 days in advance.</p>",
+            "<h5>Stress-free travel:</h5><p>Change in the plan last time; flight got canceled? No worries, you may adjust your ride without paying any extra charges.</p>",
+            "<h5>Huge space:</h5><p>Either you are riding alone, or having a picnic with your family. We got you covered for more space for luggage. </p>",
+            "<h4>Ready to go? Book an Apex cab and enjoy a hassle-free trip to Chatswood.</h4>"
+        ],
+        "qusetionset2" : [
+            "<h4>How much burden does your wallet get?</h4><p>Don't worry about the fare, you will know before confirming the ride. And with Apex Maxi, there is a fixed price. You may pay with cash or online.</p>",
+            "<h5>Skip the stressed part</h5><p>Please don’t think about the crowded buses and the train schedule. Just book the Apex Maxi and get there quickly. Reliable and comfortable rides you experience with us. And get the vibe of Chatswood. .</p>",
+            "<h5>Just plan your trip</h5><p>Apex Maxi will get you there. Bok the ride now and enjoy the best of Sydney's Chill Suburb.</p>",
+            "<h4>Ready to go? Book an Apex cab and enjoy a hassle-free trip to Chatswood.</h4>"
+        ]
+    },
+    "manly":{
+        "name": "Manly",
+        "title": "Manly Taxi Services| Reliable and Safest | Apex Maxi - 24/7 Service |  Call 2 8188 3546",
+        "description": "Need Comfortable taxi services in Manly? Apex Maxi offers a Reliable, safest and most comfortable ride with our experienced drivers around Manly. Book Apex Maxi | Anytime, Anywhere| Call now at 2 8188 3546",
+        "keywords": "Manly Taxi Services, Reliable and Safest , Apex Maxi - 24/7 Taxi Service",
+        "banner": {
+            "image": "/img/location/manly.webp",
+            "title": "Best Taxi services in Manly ",
+            "text": "<p>We are providing the Best Taxi services in Manly which includes Airport Transfers, SUVs,<br/> Maxi-taxi, Baby seat taxi, Wheelchair Taxis and Premium Silver service.<br/>Manly Taxi services available for northern beach tours for 24/7.<br/>Completely equipped with GPS and all technical accessories. Fastest pickup and drop-off services in Manly.<br/>Book a cab now! Just call Manly taxi service phone number 2 8188 3546</p>"
+        },
+        "services": {
+            "image": "/img/location/manly.webp",
+            "title": "Taxi Services in Manly",
+            "list": [
+                {
+                    "name": "Premium Silver service",
+                    "desc": "Luxurious ride, Best services at Reliable cost.",
+                    "link":"/service"
+                },
+                {
+                    "name": "Airport transfers ",
+                    "desc": "Let’s get to the airport earlier than ever. ",
+                    "link":"/service"
+                },
+                {
+                    "name": "Maxi-taxi group travel",
+                    "desc": "Large space for group fun and luggage. ",
+                    "link":"/service"
+                },
+                {
+                    "name": "SUV ",
+                    "desc": "Let’s move out in a Stylish way. Extra space means extra fun.",
+                    "link":"/service"
+                },
+                {
+                    "name": "Wheelchair Accessible taxis (WAT’s) ",
+                    "desc": "Extra care for people with Disabilities.",
+                    "link":"/service"
+                },
+                {
+                    "name": "Baby Seat Taxi ",
+                    "desc": "Providing Safest ride for your toddler.",
+                    "link":"/service"
+                }
+            ]
+        },
+        "location": {
+            "html" :
+                "<h3 style='color: var(--theme-green-color);'>Taxis to Chatswood, Sydney</h3><p>Book your apex taxi for your Chatswood trips and get your fare details before the ride starts. Reliable rides with our fixed price, because we believe in straight forward. Planning something on the weekend, don't miss the chance to explore Sydney’s best-either it's the harbor or the CBD.</p><h5>How much time will you spend in Apex taxi?</h5><p>Manly is about 29 Km from Sydney Airport. You may expect the timing to be 30 minutes to 50 minutes. Traffic is going to decide the exact timing. </p><h5>Never been in Manly?</h5><p>Visiting Manly for the first time, but you want to enjoy yourself as a localite. So, hurry up! Book your ride in Manly with Apex Maxi now. Enjoy the Manly with the reliable cost Taxi in Sydney. Our experienced drivers will help you to get the best sea view from the Shelly beach. </p><h5>Things to do!</h5><p>Manly known through its Shelly Beach and the pretty Fairy Bowel Pool. Best beach vibes you may get here in Manly, Sydney. Burn your stress with the sea waves at the shelly beach. Just book your ride with us. Get the most safest, most reliable and most comfortable taxi services in Manly. </p><h5>Book your ride and enjoy at a reliable cost.</h5>"
+        },
+        "qusetionset1" : [
+            "<h3 style='color: var(--theme-green-color);'>Why do you have to choose Apex Maxi?</h3>",
+            "<h5>Share a ride with Apex Maxi:</h5><p>Obviously, Ride-sharing with Apex Maxi is so easy. Just click on multiple stops or pickups when you book the ride, or you can give your details to the driver when you get in. We will make it even smoother. Just pick up your preferred payment method.</p>",
+            "<h5>Can pre-book the ride:</h5><p>Oh wow! You can get your instant booking with Apex Maxi and you can schedule your ride for 7 days in advance also. There is no need to stress about multiple bookings; our online system will handle it perfectly. </p>",
+            "<h5>No hidden charges:</h5><p>You will pay what we have shown to you before the ride. </p>",
+            "<h5>Flexibility:</h5><p>You may reserve your ride up to 7 days in advance.</p>",
+            "<h5>Stress-free travel:</h5><p>Change in the plan last time; flight got canceled? No worries, you may adjust your ride without paying any extra charges.</p>",
+            "<h5>Huge space:</h5><p>Either you are riding alone, or having a picnic with your family. We got you covered for more space for luggage. </p>",
+            "<h4>Ready to go? Book an Apex cab and enjoy a hassle-free trip to Manly.</h4>"
+        ],
+        "qusetionset2" : [
+            "<h4>How much burden does your wallet get?</h4><p>Don't worry about the fare, you will know before confirming the ride. And with Apex Maxi, there is a fixed price. You may pay with cash or online.</p>",
+            "<h5>Skip the stressed part</h5><p>Please don’t think about the crowded buses and the train schedule. Just book the Apex Maxi and get there quickly. Reliable and comfortable rides you experience with us. And get the vibe of Manly’s Beach and coastal wind.</p>",
+            "<h5>Just plan your trip</h5><p>Apex Maxi will get you there. Bok the ride now and enjoy the best of Sydney's coastal charm.</p>",
+            "<h5>Ready to go? Book an Apex cab and enjoy a hassle-free trip to Manly.</h5>"
+        ]
+    },
+    "hornsby":{
+        "name": "Hornsby",
+        "title": "Hornsby Taxi Services| Reliable and Safest | Apex Maxi - 24/7 Service |  Call 2 8188 3546",
+        "description": "Need Comfortable taxi services in Hornsby? Apex Maxi offers a Reliable, safest and most comfortable ride with our experienced drivers around Hornsby. Book Apex Maxi | Anytime, Anywhere| Call now at 2 8188 3546",
+        "keywords": "Hornsby Taxi Services, Reliable and Safest , Apex Maxi - 24/7 Taxi Service",
+        "banner": {
+            "image": "/img/location/Hornsby.webp",
+            "title": "Hornsby: Sydney’s Northern Escape",
+            "text": "<p>We are ensuring to provide you the Best Taxi services in Hornsby which includes Airport Transfers, SUVs,<br/> Maxi-taxi, Baby seat taxi, Wheelchair Taxis and Premium Silver service.<br/>Hornsby Taxi services available for surroundings such as Berowra Valley National Park or Hornsby Park. for 24/7.<br/>Ensuring the safest ride with GPS equipped Taxis. Fastest pickup and drop-off Taxi services in Hornsby. <br/>Explore now! Just call Hornsby taxi service phone number 2 8188 3546</p>"
+        },
+        "services": {
+            "image": "/img/location/Hornsby.webp",
+            "title": "Taxi Services in Hornsby",
+            "list": [
+                {
+                    "name": "Premium Silver service",
+                    "desc": "Luxurious ride, Best services at Reliable cost.",
+                    "link":"/service"
+                },
+                {
+                    "name": "Airport transfers ",
+                    "desc": "Let’s get to the airport earlier than ever. ",
+                    "link":"/service"
+                },
+                {
+                    "name": "Maxi-taxi group travel",
+                    "desc": "Large space for group fun and luggage. ",
+                    "link":"/service"
+                },
+                {
+                    "name": "SUV ",
+                    "desc": "Let’s move out in a Stylish way. Extra space means extra fun.",
+                    "link":"/service"
+                },
+                {
+                    "name": "Wheelchair Accessible taxis (WAT’s) ",
+                    "desc": "Extra care for people with Disabilities.",
+                    "link":"/service"
+                },
+                {
+                    "name": "Baby Seat Taxi ",
+                    "desc": "Providing Safest ride for your toddler.",
+                    "link":"/service"
+                }
+            ]
+        },
+        "location": {
+            "html" :
+                "<h3 style='color: var(--theme-green-color);'>Taxis to Chatswood, Sydney</h3><h5>How much time will you spend in Apex taxi? </h5><p>It's the 24 Km distance you are going to cover from Sydney airport to Hornsby suburb. It may take approximately 50 to 70 minutes. Completely depending on the traffic conditions of that day. </p><h5>Never been in Hornsby? </h5><p>Just landed at Sydney Airport and want to visit “Hornsby”. So, please join Apex Maxi and book your taxi in Manly at a reliable cost. Our experienced drivers will help you to get the best viewpoints and some amazing heritages. You will feel the vibe of Hornsby as a regular tourist.</p><h5>Things to do! </h5><p>Hornsby listed many things to do. From Asian cuisine to luxurious hotels and the most beautiful parks such as Berowra Valley National Park or Hornsby Park. The best place to enjoy life with the family. Family safety comes first; with Apex Maxi, you can get the safest, most reliable and most comfortable ride.</p><h5>Book your ride and enjoy at a reliable cost.</h5>"
+        },
+        "qusetionset1" : [
+            "<h3 style='color: var(--theme-green-color);'>Why do you have to choose Apex Maxi?</h3>",
+            "<h5>Share a ride with Apex Maxi:</h5><p>Obviously, Ride-sharing with Apex Maxi is so easy. Just click on multiple stops or pickups when you book the ride, or you can give your details to the driver when you get in. We will make it even smoother. Just pick up your preferred payment method.</p>",
+            "<h5>Can pre-book the ride:</h5><p>Oh wow! You can get your instant booking with Apex Maxi and you can schedule your ride for 7 days in advance also. There is no need to stress about multiple bookings; our online system will handle it perfectly. </p>",
+            "<h5>No hidden charges:</h5><p>You will pay what we have shown to you before the ride. </p>",
+            "<h5>Flexibility:</h5><p>You may reserve your ride up to 7 days in advance.</p>",
+            "<h5>Stress-free travel:</h5><p>Change in the plan last time; flight got canceled? No worries, you may adjust your ride without paying any extra charges.</p>",
+            "<h5>Huge space:</h5><p>Either you are riding alone, or having a picnic with your family. We got you covered for more space for luggage. </p>",
+            "<h4>Book your taxi in Manly and enjoy at a reliable cost.</h4>"
+        ],
+        "qusetionset2" : [
+            "<h4>How much burden does your wallet get?</h4><p>Don't worry about the fare, you will know before confirming the ride. And with Apex Maxi, there is a fixed price. You may pay with cash or online.</p>",
+            "<h5>Skip the stressed part</h5><p>Please don’t think about the crowded buses and the train schedule. Just book the Apex Maxi and get there quickly. Reliable and comfortable rides you experience with us. Enjoy the Hornsby heritage world.</p>",
+            "<h5>Just plan your trip</h5><p>Apex Maxi will get you there. Bok the ride now and enjoy the best of Sydney's heritage charm.</p>",
+            "<h5>Ready to go? Book an Apex cab and enjoy a hassle-free trip to Hornsby.</h5>"
+        ]
+    }
+}

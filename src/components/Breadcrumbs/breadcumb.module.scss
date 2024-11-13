@@ -1,0 +1,82 @@
+.breadcrumb {
+  list-style: none;
+  overflow: hidden;
+  background: var(--theme-light2-color);
+  li {
+    float: left;
+    a {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--black-color);
+      text-decoration: none;
+      padding: 10px 0 10px 50px;
+      background: var(--theme-light-color);
+      position: relative;
+      display: block;
+      float: left;
+      &::after {
+        content: ' ';
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent; /* Go big on the size, and let overflow hide */
+        border-bottom: 50px solid transparent;
+        border-left: 30px solid var(--theme-light-color);
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        left: 100%;
+        z-index: 2;
+      }
+      &::before {
+        content: ' ';
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-left: 30px solid var(--black-color);
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        margin-left: 1px;
+        left: 100%;
+        z-index: 1;
+      }
+      &:hover {
+        background: var(--theme-green-color);
+        color: var(--white-color);
+        &:after {
+          border-left-color: var(--theme-green-color) !important;
+        }
+        &:before {
+          border-left-color: var(--white-color) !important;
+        }
+      }
+    }
+    &:first-child a {
+      padding-left: 20px;
+      pointer-events: visible !important;
+      cursor: pointer !important;
+    }
+    // &:not(:first-child) a {
+    //   background: var(--theme-green-color);
+    //   &:after {
+    //     border-left-color: var(--theme-green-color);
+    //   }
+    // }
+    &:last-child a {
+      background: var(--theme-light2-color) !important;
+      pointer-events: none;
+      cursor: default;
+      padding-right: 20px;
+      &::after {
+        content: none;
+        border-left: 30px solid var(--theme-light2-color);
+      }
+      &::before {
+        content: none;
+      }
+    }
+  }
+}

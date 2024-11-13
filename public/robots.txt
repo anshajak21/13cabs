@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.apexmaxicabs.com.au/
+
+# Sitemaps
+Sitemap: https://www.apexmaxicabs.com.au/sitemap.xml

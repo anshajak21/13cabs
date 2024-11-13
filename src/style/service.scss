@@ -1,0 +1,402 @@
+.service-banner {
+    --icon-vertical-align: center;
+    background-color: var(--theme-green-color);
+    // background-image: url('/img/banner/service.webp');
+    // background-size: cover;
+    // background-position: bottom right;
+    padding: 0 !important;
+    .padWidth {
+        padding-block: 75px 70px;
+        // background-color: #00000096;
+    }
+    h3,
+    p,
+    li span {
+        color: white;
+    }
+
+    li span {
+        font-weight: 600;
+    }
+
+    p {
+        padding-left: 10px;
+        margin-block: 5px 0;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    b {
+        letter-spacing: 1px;
+    }
+
+    a {
+        padding-left: 10px;
+    }
+
+    ul {
+        padding-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        li {
+            padding: 8px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+
+            &::before {
+                display: block;
+                content: ".";
+                font-size: 0;
+                max-width: 8px;
+                max-height: 8px;
+                min-width: 8px;
+                min-height: 8px;
+                background-color: var(--theme-color);
+                color: var(--theme-color);
+                margin-top: 7px;            
+            }
+        }
+    }
+    .callBtn {
+        margin-top: 50px;
+    }
+}
+
+.ampm {
+    &-section {
+        padding-block: 50px;
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        video {
+            width: 60%;
+        }
+        img {
+            width: 40%;
+        }
+    }
+}
+
+.whyus {
+  &-section {
+    padding-block: 50px;
+  }
+  &-slider {
+    margin-top: 50px;
+  
+    .react-multi-carousel-list {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .react-multi-carousel-dot-list {
+      gap: 10px;
+      width: 100%;
+      justify-content: flex-start;
+      position: relative;
+      top: 0;
+      bottom: auto;
+      margin-inline: auto;
+      overflow-x: auto;
+      margin-bottom: 30px;
+    }
+    .slider-dot {
+      min-width: 140px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &-icon {
+        padding: 25px;
+        border-radius: 50%;
+        background-color: var(--theme-green-color);
+        aspect-ratio: 1;
+        width: 100px;
+        height: 100px;
+        svg {
+          width: 50px;
+          height: 50px;
+          fill: var(--white-color);
+        }
+      }
+      &-name {
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 500;
+        color: var(--theme-green-color);
+      }
+    
+      &.active, &:hover {
+        .slider-dot {
+          &-icon {
+            background-color: var(--theme-dark-color);
+            svg {
+              fill: var(--black-color);
+            }
+          }
+          &-name {
+            font-weight: 700;
+            color: var(--black-color);
+          }
+        }    
+      }
+    }
+  }
+  &-slide {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    &-left {
+        img {
+            aspect-ratio: 2/1.5;
+            object-fit: cover;
+        }
+    }
+    &-right {
+
+    }
+    &-content {
+      text-align: center;
+      padding: 3rem;
+    }
+    &-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #000;
+      transition: 800ms 40ms transform;
+      margin-bottom: 20px;
+    }
+    &-description {
+      font-size: 1rem;
+      color: #4D4D4D;
+    }
+  }
+}
+
+.padWidth {
+    padding-inline: 6%;
+}
+
+.service-btn {
+    color: var(--black-color);
+    background-color: var(--theme-color);
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-top: 10px;
+
+    svg {
+        fill: var(--black-color);
+        margin-right: 10px;
+    }
+
+    &:hover {
+        background-color: var(--black-color);
+        svg {
+            fill: var(--theme-color);
+        }
+    }
+}
+
+.service-section {
+    padding-top: 40px;
+    .witr_section_title {
+        width: fit-content;
+        margin-inline: auto;
+    }
+    .taxiCards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-block: 40px;
+    
+        .taxiCard {
+            display: flex;
+            flex-direction: column;
+            // gap: 20px;
+            align-items: center;
+            padding: 10px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 10px;
+    
+            &:hover {
+                transition-duration: 150ms;
+                box-shadow: 0 5px 20px 5px #0000000b;
+    
+                .taxiCard-imgs-img {
+                    transform: scale(1.1);
+                }
+            }
+    
+            &-imgs {
+                position: relative;
+    
+                // &-img {
+                //     filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.418));
+                // }
+                &-icon {
+                    position: absolute;
+                    top: 5px;
+                    right: 10px;
+                    padding: 10px;
+                    background-color: var(--black-color);
+                    border-radius: 50%;
+    
+                    svg {
+                        fill: var(--white-color);
+                    }
+                }
+            }
+    
+            &-title {
+                font-size: 24px;
+                font-weight: 600;
+            }
+    
+            &-text {
+                // p {
+                //     text-align: justify;
+                // }
+            }
+    
+            &-btn {
+                background-color: var(--theme-green-color);
+                border: none;
+                border-radius: 10px;
+                font-weight: 600;
+                margin-top: 20px;
+                padding: 6px 22px;
+    
+                a {
+                    color: var(--white-color);
+                }
+    
+                &:hover {
+                    background-color: var(--theme-color);
+    
+                    a {
+                        color: var(--black-color);
+                    }
+                }
+            }
+            &-btn2 {
+                background-color: var(--theme-color);
+                border: none;
+                border-radius: 10px;
+                font-weight: 600;
+                margin-top: 20px;
+                padding: 6px 22px;
+    
+                a {
+                    color: var(--black-color);
+                }
+    
+                &:hover {
+                    background-color: var(--theme-green-color);
+    
+                    a {
+                        color: var(--white-color);
+                    }
+                }
+            }
+        }
+    
+        @media (max-width: 850px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        @media (max-width: 550px) {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .whyus-section .container {
+        max-width: 98%;
+    }
+}
+@media (max-width: 786px) {
+    .service-banner .witr_section_title_inner h3 {
+        text-align: left;
+    }
+}
+@media (max-width: 700px) {
+    .service-banner {
+        padding: 0 !important;
+        // background-image: url('/img/banner/service-mob.webp');
+        background-size: cover;
+        background-position: 75% 100%;
+        
+        .padWidth {
+            padding: 70px 0 48px;
+            // background-color: #00000096;
+        }
+        .witr_section_title_inner {
+            text-align: center;
+        }
+        // ul, p {
+        //     text-align: center;
+        //     padding-inline: 10px;
+        //     li::before {
+        //         content: none;
+        //     }
+        // }
+        a {
+            margin-inline: auto;
+        }
+    }
+    .service-banner {
+        background-size: cover;
+        background-position: 50% 100%;
+
+        .padWidth {
+            padding: 65px 28px;
+        }
+
+        .witr_section_title_inner {
+            text-align: center;
+        }
+
+        ul,
+        p {
+            text-align: left;
+            padding-inline: 10px;
+        }
+    }
+    .whyus {
+        &-slide {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            img {
+                margin: auto;
+                width: 75%;
+            }&-content {
+                padding: 2rem 1.5rem;
+            }
+        }
+        &-slider .slider-dot-name {
+            margin-top: 10px;
+        }
+    }
+    .service-section .taxiCards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 540px) {
+    // .react-multi-carousel-item:nth-child(even) {
+    //     .whyus-slide {
+    //         flex-direction: column-reverse;
+    //     }
+    // }
+}
