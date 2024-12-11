@@ -13,13 +13,13 @@
 //   --theme-green-dark-color: #068445;
 // }
 :root {
-  --theme-color: #faf505;
-  --theme-dark-color: #faf505;
+  --theme-color: #f58200;
+  --theme-dark-color: #f58200;
   --white-color: #fff;
   --black-color: #000;
   --gray-color: #6e6e6e;
-  --theme-green-color: #068445;
-  --theme-green-dark-color: #068445;
+  --theme-green-color: #f58200;
+  --theme-green-dark-color: #f58200;
 }
 
 @media (min-width: 541px) {
@@ -279,4 +279,13 @@ mapbox-address-autofill, mapbox-address-autofill input {
 }
 mapbox-search-listbox a {
   display: none !important;
+}
+.flex {
+  display: flex !important;
+}
+.items-center {
+  align-items: center !important;
+}
+.justify-between {
+ justify-content: space-between !important;
 }

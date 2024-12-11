@@ -3,23 +3,23 @@
   color: var(--black-color);
   border-top: 5px solid transparent;
   display: block;
-  padding-block: 28px;
+  padding-block: 20px;
   margin: 2px 12px;
   -webkit-transition: .2s;
   transition: .2s;
   position: relative;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase
 }
-.apex_menu>ul>li:hover>a {
+.apex_menu>ul>li:hover>a, .apex_menu>ul>li.current>a {
 color: var(--theme-green-color);
 border-top: 5px solid var(--theme-green-color);
 }
 .apex_nav_area.prefix .apex_menu>ul>li>a {
   color: var(--white-color);
 }
-.apex_nav_area.prefix .apex_menu>ul>li:hover>a {
+.apex_nav_area.prefix .apex_menu>ul>li:hover>a, .apex_nav_area.prefix .apex_menu>ul>li.current>a {
   color: var(--theme-color);
   border-top: 5px solid var(--theme-color);
 }
@@ -46,6 +46,44 @@ border-top: 5px solid var(--theme-green-color);
 
 
 
+.dropdown-btn:hover .dropdown-wrap {
+  display: block;
+}
+.dropdown-wrap {
+  display: none;
+  position: absolute;
+  top: 96%;
+  background: #ffffff;
+  padding: 5px;
+}
+.apex_menu>ul>li> .dropdown-wrap a {
+  color: var(--black-color);
+  display: block;
+  padding: 2px 12px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+  border-left: 3px solid transparent;
+}
+.apex_menu>ul>li> .dropdown-wrap a:hover {
+  color: var(--theme-green-color);
+  border-left: 3px solid var(--theme-green-color);
+}
+
+.fixedBg .apex_menu>ul>li> .dropdown-wrap {
+  background: rgb(0, 0, 0);
+  a{
+    color: white;
+    &:hover {
+      color: var(--theme-color);
+      border-left: 3px solid var(--theme-color);
+    }
+  }
+}
 .apex_menu ul .sub-menu {
   position: absolute;
   left: 0;
@@ -137,11 +175,11 @@ border-top: 5px solid var(--theme-green-color);
 }
 
 .logo img {
-  height: 70px;
+  height: 60px;
   width: auto;
 }
 a.dtbtn {
-  font-size: 16px;
+  font-size: 14px;
   display: inline-block;
   background-color: var(--theme-green-color);
   border: none;
@@ -149,7 +187,7 @@ a.dtbtn {
   font-weight: 700;
   border-radius: 10px;
   color: var(--white-color);
-  padding: 10px 18px;
+  padding: 8px 14px;
   &:hover {
     color: var(--white-color);
     background-color: var(--black-color);
@@ -257,7 +295,7 @@ a.dtbtn {
   .apex_menu>ul>li>a {
     color: var(--white-color);
   }
-  .apex_menu>ul>li:hover>a {
+  .apex_menu>ul>li:hover>a, .apex_menu>ul>li.current>a {
     color: var(--theme-color);
     border-top: 5px solid var(--theme-color);
   }

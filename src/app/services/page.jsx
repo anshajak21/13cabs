@@ -85,8 +85,8 @@ export default function Service() {
                     <div class="row">
                     {comprehensiveTaxi.map((taxi,idx)=> (
                         <>
-                        <div key={idx} class="col-md-6 col-sm-12">
-                            <div class="single-taxi-one px-5">
+                        <div key={idx} class="col-12 col-md-6 col-lg-4">
+                            <div class="single-taxi-one">
                                 <div class="inner-content">
                                     <Image loading="lazy" className="taxiCard-imgs-img" width={523} height={277} src={taxi.img} alt={taxi.name} />
                                     {/* <img src="/img/pricing/pricing-1-1.png" alt="Awesome Image" /> */}
@@ -133,7 +133,7 @@ export default function Service() {
                     <p className="light">Latest blog posts</p>
                     <h2 className="light">News & updates</h2>
                 </div>
-                <Slider slidesNumber={1} className="slider testimonials-slider-one" arrows={true}>
+                <Slider slidesNumber={2} className="slider testimonials-slider-one" arrows={true}>
                     <li className="slide-item">
                         <div className="single-testimonial-one">
                             <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</p>

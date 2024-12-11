@@ -321,7 +321,7 @@ export default function Home() {
                     <div className="block-title">
                         <div className="dot-line"></div>
                         <p>We’re the best in your town</p>
-                        <h2>Welcome to the <br/> most trusted <br/> company</h2>
+                        <h2>Welcome to the most trusted company</h2>
                     </div>
                     <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humor or random word which don&apos;t look even slightly believable you are going to use a passage.</p>
                     <hr className="style-one" />
@@ -338,7 +338,7 @@ export default function Home() {
                         <div className="block-title">
                             <div className="dot-line"></div>
                             <p className="light-2">Looking for taxi?</p>
-                            <h2 className="light">Make your <br/> booking</h2>
+                            <h2 className="">Make your booking</h2>
                         </div>
                         <HomeForm />
                     </div>
@@ -436,12 +436,12 @@ export default function Home() {
                     <div className="col-lg-6">
                         <div className="text-block">
                             <div className="video-block-one">
-                                <div className="image-block">
+                                {/* <div className="image-block">
                                     <div className="inner-block">
                                         <img src="/img/resources/video-1-1.png" alt="Awesome Image" />
                                         <a href="https://www.youtube.com/watch?v=hsb-fA6ApiE" className="video-popup"><i className="fa fa-play"></i></a>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="content-block">
                                     <h3>We’re specialized in providing a high quality service</h3>
                                 </div>
@@ -484,7 +484,7 @@ export default function Home() {
                     <p className="light">What our customers are saying</p>
                     <h2 className="light">Voices of Satisfaction</h2>
                 </div>
-                <Slider slidesNumber={1} className="slider testimonials-slider-one" arrows={true}>
+                <Slider slidesNumber={2} className="slider testimonials-slider-one" arrows={true}>
                     <li className="slide-item">
                         <div className="single-testimonial-one">
                             <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</p>

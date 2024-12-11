@@ -186,7 +186,7 @@ export default function About() {
                 <p className="light">What our customers are saying</p>
                 <h2 className="light">Voices of Satisfaction</h2>
             </div>
-            <Slider slidesNumber={1} className="slider testimonials-slider-one" arrows={true}>
+            <Slider slidesNumber={2} className="slider testimonials-slider-one" arrows={true}>
                 <li className="slide-item">
                     <div className="single-testimonial-one">
                         <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</p>

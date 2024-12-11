@@ -52,7 +52,7 @@ const Footer = async() => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-5 col-lg-2">
                         <div className="footer-widget">
                             <div className="widget-title">
                                 <h3>Links</h3>
@@ -66,7 +66,7 @@ const Footer = async() => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-7 col-lg-3">
                         <div className="footer-widget">
                             <div className="widget-title">
                                 <h3>Contact</h3>
@@ -83,7 +83,7 @@ const Footer = async() => {
                             <div className="widget-title">
                                 <h3>Newsletter</h3>
                             </div>
-                            <p>Sign up now for our mailing list to get all latest news <br/> and updates from conexi company.</p>
+                            <p>Sign up now for our mailing list to get all latest news and updates from conexi company.</p>
                             <form action="#" className="subscribe-form">
                                 <input type="text" name="email" placeholder="Enter your email"/>
                                 <button type="submit">Go</button>

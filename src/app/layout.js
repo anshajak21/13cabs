@@ -1,5 +1,7 @@
-import "@/style/responsive.css";
 import '@/style/style.css';
+import "@/style/responsive.css";
+import '@/style/globals.scss';
+import '@/style/header.scss';
 import Header from "@/components/Header/header";
 import Footer from "@/components/Footer/footer";
 

@@ -164,7 +164,7 @@
     .header-navigation ul.navigation-box li a .sub-nav-toggler {
         background-color: transparent;
         background-image: none;
-        border: 1px solid #FFC000;
+        border: 1px solid #f58200;
         border-radius: 4px;
         padding: 9px 9px;
         position: absolute;
@@ -181,7 +181,7 @@
     }
 
     .header-navigation .navigation-box .sub-nav-toggler .icon-bar {
-        background-color: #FFC000;
+        background-color: #f58200;
         border-radius: 1px;
         display: block;
         height: 1px;
@@ -333,7 +333,7 @@
     }
 
     .site-header.header-two .header-navigation .container .menu-toggler {
-        color: #FFC000;
+        color: #f58200;
     }
 
     .site-header.header-two .header-navigation ul.navigation-box>li {
@@ -350,7 +350,7 @@
 
     .site-header.header-one .header-navigation ul.navigation-box>li.current>a,
     .site-header.header-one .header-navigation ul.navigation-box>li:hover>a {
-        color: #FFC000;
+        color: #f58200;
     }
 
 
@@ -450,7 +450,7 @@
     }
 
     .about-style-three .content-block .block-title h2 {
-        font-size: 40px;
+        font-size: 2rem;
     }
 
     .cta-style-three .content-block .app-btn {
@@ -509,8 +509,8 @@
     }
 
     .banner-style-one .banner-title {
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 2.7rem;
+        line-height: 3rem;
     }
 
     .banner-style-one p {
@@ -719,13 +719,19 @@
     .taxi-fare-one {
         padding-bottom: 70px;
     }
+    .site-footer {
+        padding-inline: 5%;
+    }
 
     .site-footer .upper-footer {
-        padding-top: 118px;
+        padding-top: 3rem;
     }
 
     .site-header.header-two .top-bar .contact-infos {
         flex-direction: column;
+    }
+    .site-footer .bottom-footer .left-block .footer-logo img {
+        display: none;
     }
 
     .banner-style-two .banner-circle {
@@ -748,8 +754,7 @@
     }
 
     .about-style-three .cta-block {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-block: 2rem;
     }
 
     .inner-banner {
@@ -907,8 +912,8 @@
     }
 
     .single-testimonial-one p {
-        font-size: 25px;
-        line-height: 40px;
+        font-size: 14px;
+        line-height: 20px;
     }
 
     .site-footer .bottom-footer .inner-container .left-block {
@@ -937,8 +942,8 @@
     .cta-style-two h3,
     .single-blog-details-page .single-blog-style-one .post-title,
     .block-title h2 {
-        font-size: 30px;
-        line-height: 1.45em;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
     }
 
     .single-taxi-fare-one .fare-btn {
