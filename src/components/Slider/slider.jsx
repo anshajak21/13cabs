@@ -13,7 +13,7 @@ const Slider = (props) => {
     slidesNumber = 3, 
     showDots = false, 
     arrows = false, 
-    infinite = true, 
+    infinite = false, 
     autoPlay = false, 
     autoPlaySpeed = 2500, 
     transitionDuration = 600,
@@ -146,7 +146,7 @@ const Slider = (props) => {
   const CustomDot = ({ onMove, index, onClick, active }) => {
     return (
       <li className={`nav-item ${active ? "active" : "inactive"}`} onClick={() => onClick()}>
-        <button onClick={()=>setServiceTab(1)} className={`nav-link ${active ? 'active':''}`}>{CustomDotList[index].name}</button>
+        <button className={`nav-link ${active ? 'active':''}`}>{CustomDotList[index].name}</button>
       </li>
     );
   };

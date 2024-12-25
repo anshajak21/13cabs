@@ -4,6 +4,7 @@ import Image from 'next/image';
 import '@/style/datepicker.scss';
 import Breadcrumbs from '@/components/Breadcrumbs/breadcrumbs';
 import Script from 'next/script';
+import Slider from '@/components/Slider/slider';
 
 export const metadata = {
     title: "Contact Apex Maxi Cab | 24/7 Cab Service in Sydney - Call 2 8188 3546",
@@ -13,17 +14,22 @@ export const metadata = {
 export default function Contact() {
     return (
         <>
+        <section className="main-banner-wrapper">
+            <Slider className="banner-style-one" slidesNumber={1}>
+                <div className="slide" style={{backgroundImage: "url('/img/slider/slider-1-2.jpg')"}}>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <h3 className="banner-title">SYDNEY TAXI SERVICES</h3>
+                                <p>You couldn’t find the best ride in Sydney. Don’t be stressed—book a 13CabsSydney taxi now. Say goodbye to the last time stressed book your ride in advance with us. whether it’s an interview or a group trip, just fill out the form. Drop in your details, and confirm the taxi booking at 13CabsSydney. Our driver will wait for you at your selected location.</p>
+                                <p>Plan and ride with ease. Travel with smartness and leave the stress. Book now and relax!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Slider>
+        </section>
         <Breadcrumbs name="Contact" />
-        <div class="contact-page-map-wrapper">
-            <iframe class="google-map" id="contact-google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.80759055258!2d151.0325070765562!3d-33.92035132173223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bd803fead229%3A0x199cbb2c60384ee7!2sApex%20Cabs!5e0!3m2!1sen!2sin!4v1726077572411!5m2!1sen!2sin" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-            <div class="contact-info-block">
-                <p>7/46-48 Restwell St, Bankstown NSW 2200, Australia</p>
-                <ul class="contact-infos">
-                    <li><i class="fa fa-envelope"></i> info@apexcabs.com.au</li>
-                    <li><i class="fa fa-phone-square"></i> 1300 530 570</li>
-                </ul>
-            </div>
-        </div>
         <section class="contact-form-style-one">
             <div class="container">
                 <div class="block-title text-center">
@@ -69,8 +75,8 @@ export default function Contact() {
         <section className="lostFound">
             <div className="container">
                 <div class="block-title text-center">
-                    <h2>Lost something in 13Cabs?</h2>
-                    <h5 className="mt-4">First of all take a deep breath, because you have booked Apex Cabs. Our management and drivers are super cooperative and ready to assist every time.</h5>
+                    <h2>Lost Something in 13CabsSydney?</h2>
+                    <h5 className="mt-4">Don’t be stressed because you have booked your taxi ride with 13CabsSydney. Our management and drivers are very cooperative and ready to assist you at all times.</h5>
                 </div>
                 <div className="lostFound-cards">
                     <div className="lostFound-card">
@@ -80,7 +86,7 @@ export default function Contact() {
                             </svg>
                         </div>
                         <h2>Step 1</h2>
-                        <p>Tell us about your trip details, When and where you lost your stuff.</p>
+                        <p>Describe your trip details, when and where your stuff had been lost.</p>
                     </div>
                     <div className="lostFound-card">
                         <div className="lostFound-card-icon">
@@ -89,7 +95,7 @@ export default function Contact() {
                             </svg>
                         </div>
                         <h2>Step 2</h2>
-                        <p>Get in touch, send us an email or dial 1300 530 570.</p>
+                        <p>You can get in contact with us through email or you can dial 1300 530 570.</p>
                     </div>
                     <div className="lostFound-card">
                         <div className="lostFound-card-icon">
@@ -98,11 +104,21 @@ export default function Contact() {
                             </svg>
                         </div>
                         <h2>Step 3</h2>
-                        <p>Welcome to our office and pick up your property</p>
+                        <p>Welcome to our place and get your property safely.</p>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="contact-page-map-wrapper">
+            <iframe class="google-map" id="contact-google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.80759055258!2d151.0325070765562!3d-33.92035132173223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bd803fead229%3A0x199cbb2c60384ee7!2sApex%20Cabs!5e0!3m2!1sen!2sin!4v1726077572411!5m2!1sen!2sin" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <div class="contact-info-block">
+                <p>7/46-48 Restwell St, Bankstown NSW 2200, Australia</p>
+                <ul class="contact-infos">
+                    <li><i class="fa fa-envelope"></i> info@apexcabs.com.au</li>
+                    <li><i class="fa fa-phone-square"></i> 1300 530 570</li>
+                </ul>
+            </div>
+        </div>
         <Script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk25E4mNfVIEt3tNl3K1HwNZVruVoFBlA"></Script>
         <Script src="js/gmaps.js"></Script>
         </>

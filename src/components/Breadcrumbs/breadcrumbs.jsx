@@ -78,7 +78,7 @@ const Breadcrumbs = ({
                     }
                     return (
                       <>
-                      <li><span class="sep">.</span></li>
+                      <li><span class="sep">{'>'}</span></li>
                       <li><Link href={breadcrumb.href} class="page-title">{convertBreadcrumb( breadcrumb.breadcrumb, labelsToUppercase, replaceCharacterList, transformLabel )}</Link></li>
                       </>
                     );

@@ -155,13 +155,13 @@ const Header = () => {
                         <a className="menu-item" href="/">Home</a>
                         <a className="menu-item" href="/about">About</a>
                         <a className="menu-item" href="/services">All Service</a>
-                        <a className="menu-item" style={{marginLeft: 10}} href="/services/airport-transfer">Airport Transfer</a>
+                        {/* <a className="menu-item" style={{marginLeft: 10}} href="/services/airport-transfer">Airport Transfer</a>
                         <a className="menu-item" style={{marginLeft: 10}} href="/services/baby-seat">Baby Seat Taxi</a>
                         <a className="menu-item" style={{marginLeft: 10}} href="/services/wheelchair">Wheelchair</a>
                         <a className="menu-item" style={{marginLeft: 10}} href="/services/wedding-day-transfers">Wedding Day Transfers</a>
-                        <a className="menu-item" style={{marginLeft: 10}} href="/services/parcel-delivery">Parcel Delivery</a>
+                        <a className="menu-item" style={{marginLeft: 10}} href="/services/parcel-delivery">Parcel Delivery</a> */}
                         <a className="menu-item" href="/contact">Contact</a>
-                        <a className="menu-item" href="/blogs">Blogs</a>
+                        {/* <a className="menu-item" href="/blogs">Blogs</a> */}
                     </nav>
                 </div>
                 <div className={`mobile-overlay ${isMobileMenuOpen?'menu-open':''}`}></div>
@@ -190,7 +190,10 @@ const Header = () => {
                                 <li className={`menu-item ${isCurrentPage('/about') ? 'current ' : ''}`} >
                                     <a className='mr-10' href="/about">About</a>
                                 </li>
-                                <li className={`menu-item dropdown-btn ${isCurrentPage('/services') ? 'current ' : ''}`} >
+                                <li className={`menu-item ${isCurrentPage('/services') ? 'current ' : ''}`} >
+                                    <a className='mr-10' href="/services">Services</a>
+                                </li>
+                                {/* <li className={`menu-item dropdown-btn ${isCurrentPage('/services') ? 'current ' : ''}`} >
                                     <a className='mr-10' href="/services">Service</a>
                                     <ul className="dropdown-wrap">
                                         <li className={isCurrentPage('/services/airport-transfer') ? 'current' : ''}><a href="/services/airport-transfer">Airport Transfer</a></li>
@@ -199,13 +202,13 @@ const Header = () => {
                                         <li className={isCurrentPage('/services/wedding-day-transfers') ? 'current' : ''}><a href="/services/wedding-day-transfers">Wedding Day Transfers</a></li>
                                         <li className={isCurrentPage('/services/parcel-delivery') ? 'current' : ''}><a href="/services/parcel-delivery">Parcel Delivery</a></li>
                                     </ul>
-                                </li>
+                                </li> */}
                                 <li className={`menu-item ${isCurrentPage('/contact') ? 'current ' : ''}`}>
                                     <a href="/contact">Contact</a>
                                 </li>
-                                <li  className={`menu-item ${isCurrentPage('/blogs') ? 'current ' : ''}`}>
+                                {/* <li  className={`menu-item ${isCurrentPage('/blogs') ? 'current ' : ''}`}>
                                     <a href="/blogs">Blogs</a>
-                                </li>
+                                </li> */}
                             </ul>
                         </nav>
                         </div>

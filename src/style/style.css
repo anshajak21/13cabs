@@ -946,28 +946,28 @@ hr.style-one {
 .banner-style-one .banner-title {
   margin: 0;
   color: #FFFFFF;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 3.5rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  /* opacity: 0; */
+  opacity: 0;
   -webkit-transform: translateY(-100px);
           transform: translateY(-100px);
   transition: all 1.5s ease 1s;
 }
 .banner-style-one p {
   color: #FFFFFF;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.7rem;
   font-weight: 500;
-  /* opacity: 0; */
-  margin-block: 1.3rem 3rem;
+  opacity: 0;
+  margin-block: 1.3rem;
   -webkit-transform: translateY(50px);
           transform: translateY(50px);
   transition: all 1.5s ease;
 }
 .banner-style-one .btn-block {
-  /* opacity: 0; */
+  opacity: 0;
   -webkit-transform: translateY(-50px);
           transform: translateY(-50px);
   transition: all 1.5s ease;
@@ -2712,6 +2712,9 @@ hr.style-one {
 .about-style-three .left-block,
 .about-style-three .right-block {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 @media (max-width: 991px) {
   .about-style-three .left-block,
@@ -2737,8 +2740,8 @@ hr.style-one {
   margin-bottom: 40px;
 }
 .about-style-three .left-block .content-block hr.style-one {
-  margin-top: 50px;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 @media (max-width: 1199px) {
   .about-style-three .left-block .content-block {
@@ -4006,12 +4009,12 @@ hr.style-one {
   font-size: 30px;
   font-weight: bold;
   color: #f58200;
-  margin-bottom: 35px;
+  margin-bottom: 5px;
 }
 .history-style-one .history-content p {
   color: #717171;
   font-size: 16px;
-  line-height: 34px;
+  line-height: 26px;
 }
 .history-style-one .history-one-slider-btn .carousel-btn {
   display: inline-block;

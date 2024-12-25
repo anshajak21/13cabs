@@ -8,7 +8,7 @@ export default function ServiceTab() {
             name: "TOYOTA COMMUTER",
             img: "/images/cars/11-seater.webp",
             title: "Make it smooth",
-            text: "For maximum space, better accommodation, and protection all around.",
+            text: "It makes your journey smooth. Have maximum space and better accommodation for your family.",
             link: "tel:+611300530570",
             list: [
                 {
@@ -29,7 +29,7 @@ export default function ServiceTab() {
             name: "TOYOTA TARAGO",
             img: "/images/cars/7-seater.webp",
             title: "Stylish and Safe",
-            text: "arago's best option for safety and style. Provides high levels of control and assistance.",
+            text: "Choose Tarago for a stylish and safest ride. Taxi provides high levels of control and assistance.",
             link: "tel:+611300530570",
             list: [
                 {
@@ -50,7 +50,7 @@ export default function ServiceTab() {
             name: "TOYOTA CAMRY",
             img: "/images/cars/canry.webp",
             title: "Luxurious",
-            text: "Camry designed to give you a luxurious ride with all safety purposes.",
+            text: "The Luxurious taxi, one can choose ever. Camry specially designed to provide you a luxurious experience.",
             link: "tel:+611300530570",
             list: [
                 {
@@ -71,7 +71,7 @@ export default function ServiceTab() {
             name: "KIA CARNIVAL",
             img: "/images/cars/kiac.webp",
             title: "The big bash",
-            text: "Carnival is for family, friends and their loads of luggage. And countless funny moments.",
+            text: "It is known as BIG BASH. always ready for family, friends and all the luggage on trips and tours.",
             link: "tel:+611300530570",
             list: [
                 {
@@ -95,8 +95,8 @@ export default function ServiceTab() {
             <div className="container">
                 <div className="block-title text-center">
                     <div className="dot-line"></div>
-                    <p>Our best cars</p>
-                    <h2>Choose taxi</h2>
+                    <p>Our Variety of Cars</p>
+                    <h2>Choose Taxi</h2>
                 </div>
                 <Slider showDots={true} CustomDotList={taxiSlider}>
                     {taxiSlider.map((taxi, index)=>(
@@ -104,6 +104,7 @@ export default function ServiceTab() {
                             <div className="inner-content">
                                 <img src="/img/pricing/pricing-1-1.png" alt="Awesome Image" />
                                 <h3>{taxi.name}</h3>
+                                <p style={{fontSize:0}}>{taxi.text}</p>
                                 <ul className="feature-list">
                                     {taxi['list'].map((item, key)=>(
                                         <li key={`taxi-item-${key}`}>

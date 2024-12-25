@@ -1,0 +1,295 @@
+.main-banner-wrapper {
+    position: relative;
+}
+
+.main-banner-wrapper .carousel-btn-block .carousel-btn {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all .4s ease;
+    font-size: 36px;
+    color: #fff;
+    width: 63px;
+    height: 63px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 9;
+    transition: all .4s ease;
+}
+
+.main-banner-wrapper .carousel-btn-block .carousel-btn i {
+    line-height: 59px;
+}
+
+.main-banner-wrapper .carousel-btn-block .carousel-btn:hover {
+    color: #f58200;
+    border-color: #f58200;
+}
+
+.main-banner-wrapper .carousel-btn-block .carousel-btn i {
+    display: block;
+    vertical-align: middle;
+}
+
+.main-banner-wrapper .carousel-btn-block .carousel-btn.left-btn {
+    left: 120px;
+    text-align: right;
+}
+
+.main-banner-wrapper .carousel-btn-block .carousel-btn.right-btn {
+    right: 120px;
+    text-align: left;
+}
+
+.banner-style-one .slide {
+    padding-block: 5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-style-one .owl-nav {
+    display: none;
+}
+
+.banner-style-one .owl-dots {
+    display: none;
+}
+
+.banner-style-one h3,
+.banner-style-one p {
+    margin: 0;
+}
+
+.banner-style-one .banner-title {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    transition: all 1.5s ease 1s;
+}
+
+.banner-style-one p {
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    font-weight: 500;
+    opacity: 0;
+    margin-block: 1.3rem 3rem;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    transition: all 1.5s ease;
+}
+
+.banner-style-one .btn-block {
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    transition: all 1.5s ease;
+}
+
+.banner-style-one .banner-btn {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    background-color: #f58200;
+    color: #111111;
+    font-size: 1rem;
+    border-radius: 38.5px;
+    padding: 0.7rem 2rem;
+    transition: all .4s ease;
+}
+
+.banner-style-one .banner-btn:hover {
+    color: #111111;
+    background-color: #fff;
+}
+
+.banner-style-one .react-multi-carousel-item--active .banner-title,
+.banner-style-one .react-multi-carousel-item--active p,
+.banner-style-one .react-multi-carousel-item--active .btn-block {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.banner-style-one .react-multi-carousel-item--active p {
+    transition-delay: 1s;
+    opacity: .7;
+}
+
+.banner-style-one .react-multi-carousel-item--active .btn-block {
+    transition-delay: 2s;
+}
+
+.banner-style-one .owl-dots {
+    margin: 0;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+}
+
+.banner-style-one .owl-dots .owl-dot span {
+    width: 7px;
+    height: 7px;
+    background-color: #D5DBD5;
+    margin: 0;
+    transition: all .4s ease;
+}
+
+.banner-style-one .owl-dots .owl-dot+.owl-dot {
+    margin-left: 25px;
+}
+
+.banner-style-one .owl-dots .owl-dot.active span {
+    background-color: #f58200;
+}
+
+.banner-style-one.no-dots .owl-dots {
+    display: none !important;
+}
+
+.banner-style-two .slide {
+    padding-bottom: 105px;
+    padding-top: 105px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-style-two .owl-nav {
+    display: none;
+}
+
+.banner-style-two .owl-dots {
+    display: none;
+}
+
+.banner-style-two h3,
+.banner-style-two p {
+    margin: 0;
+}
+
+.banner-style-two h3 {
+    font-size: 80px;
+    line-height: 90px;
+    color: #111111;
+    letter-spacing: -0.04em;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.banner-style-two .banner-circle {
+    width: 100%;
+    max-width: 670px;
+    height: 670px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #f58200;
+    background-blend-mode: overlay;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.banner-style-two .banner-circle .inner-block {
+    width: 100%;
+}
+
+.banner-style-two .btn-block {
+    /* opacity: 0; */
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    transition: all 1.5s ease;
+}
+
+.banner-style-two .banner-btn {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    background-color: #111111;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 38.5px;
+    padding: 21.5px 59px;
+    transition: all .4s ease;
+}
+
+.banner-style-two .banner-btn:hover {
+    color: #111111;
+    background-color: #fff;
+}
+
+.banner-style-two .active .banner-title,
+.banner-style-two .active p,
+.banner-style-two .active .btn-block {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.banner-style-two .active p {
+    transition-delay: 1s;
+    opacity: .7;
+}
+
+.banner-style-two .active .btn-block {
+    transition-delay: 2s;
+}
+
+.banner-style-two .active .banner-circle {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX;
+}
+
+.banner-style-two .owl-dots {
+    margin: 0;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+}
+
+.banner-style-two .owl-dots .owl-dot span {
+    width: 7px;
+    height: 7px;
+    background-color: #D5DBD5;
+    margin: 0;
+    transition: all .4s ease;
+}
+
+.banner-style-two .owl-dots .owl-dot+.owl-dot {
+    margin-left: 25px;
+}
+
+.banner-style-two .owl-dots .owl-dot.active span {
+    background-color: #f58200;
+}
+
+.banner-style-two.no-dots .owl-dots {
+    display: none !important;
+}
