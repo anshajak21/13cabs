@@ -98,7 +98,7 @@ export default function ServiceTab() {
                     <p>Our Variety of Cars</p>
                     <h2>Choose Taxi</h2>
                 </div>
-                <Slider showDots={true} CustomDotList={taxiSlider}>
+                <Slider infinite={true} showDots={true} CustomDotList={taxiSlider}>
                     {taxiSlider.map((taxi, index)=>(
                         <div className="single-taxi-one mx-2" key={`taxi-${index}`}>
                             <div className="inner-content">

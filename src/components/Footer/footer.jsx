@@ -43,7 +43,7 @@ const Footer = async() => {
                             <div className="widget-title">
                                 <h3>About</h3>
                             </div>
-                            <p>There are many vari of pass of lorem ipsum availab but the majority have suffered in some form by injected humour or words</p>
+                            <p>The best taxi service in Sydney, trusted, safest, and reliable is 13CabsSydney, which is there for you. We ensure hundred percent safe, comfortable, safe, and secure rides</p>
                             <div className="social-block">
                                 <a href="#"><i className="fa fa-twitter"></i></a>
                                 <a href="#"><i className="fa fa-facebook-f"></i></a>
