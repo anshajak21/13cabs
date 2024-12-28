@@ -39,7 +39,7 @@ const Breadcrumbs = ({
   replaceCharacterList= [{ from: '-', to: ' ' }],
   transformLabel= undefined,
   omitIndexList= undefined,
-  visible= 0
+  visible= 1
 }) => {
   const router = usePathname();
   const [breadcrumbs, setBreadcrumbs] = useState(null);
@@ -64,29 +64,44 @@ const Breadcrumbs = ({
     return null;
   }
   return (
-    <section class={`inner-banner ${visible? '':'hide'}`}>
-        <div class="container">
-            <ul class="thm-breadcrumb">
-                <li><a href="/">{convertBreadcrumb( rootLabel || 'Home', labelsToUppercase, replaceCharacterList, transformLabel )}</a></li>
-                {breadcrumbs.length >= 1 && breadcrumbs.map((breadcrumb, i) => {
-                    if (
-                      !breadcrumb ||
-                      breadcrumb.breadcrumb.length === 0 ||
-                      (omitIndexList && omitIndexList.find((value) => value === i))
-                    ) {
-                      return;
-                    }
-                    return (
-                      <>
-                      <li><span class="sep">{'>'}</span></li>
-                      <li><Link href={breadcrumb.href} class="page-title">{convertBreadcrumb( breadcrumb.breadcrumb, labelsToUppercase, replaceCharacterList, transformLabel )}</Link></li>
-                      </>
-                    );
-                })}
-            </ul>
-            <h2>{name?name: convertBreadcrumb( breadcrumbs.at(-1).breadcrumb, labelsToUppercase, replaceCharacterList, transformLabel )}</h2>
-        </div>
-    </section>
+    <nav className={style.breadcrumb} aria-label="breadcrumbs">
+      <ol>
+        {!omitRootLabel && (
+          <li>
+              <a href="/">
+                {convertBreadcrumb(
+                  rootLabel || 'Home',
+                  labelsToUppercase,
+                  replaceCharacterList,
+                  transformLabel
+                )}
+              </a>
+          </li>
+        )}
+        {breadcrumbs.length >= 1 &&
+          breadcrumbs.map((breadcrumb, i) => {
+            if (
+              !breadcrumb ||
+              breadcrumb.breadcrumb.length === 0 ||
+              (omitIndexList && omitIndexList.find((value) => value === i))
+            ) {
+              return;
+            }
+            return (
+              <li key={breadcrumb.href}>
+                  <a href={breadcrumb.href}>
+                    {convertBreadcrumb(
+                      breadcrumb.breadcrumb,
+                      labelsToUppercase,
+                      replaceCharacterList,
+                      transformLabel
+                    )}
+                  </a>
+              </li>
+            );
+          })}
+      </ol>
+    </nav>
   );
 };
 

@@ -44,12 +44,12 @@ const Footer = async() => {
                                 <h3>About</h3>
                             </div>
                             <p>The best taxi service in Sydney, trusted, safest, and reliable is 13CabsSydney, which is there for you. We ensure hundred percent safe, comfortable, safe, and secure rides</p>
-                            <div className="social-block">
+                            {/* <div className="social-block">
                                 <a href="#"><i className="fa fa-twitter"></i></a>
                                 <a href="#"><i className="fa fa-facebook-f"></i></a>
                                 <a href="#"><i className="fa fa-youtube-play"></i></a>
                                 <a href="#"><i className="fa fa-google-plus"></i></a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-5 col-lg-2">
@@ -97,7 +97,7 @@ const Footer = async() => {
             <div className="container">
                 <div className="inner-container">
                     <div className="left-block">
-                        <a href="/" className="footer-logo"><img src="/images/logo.png" alt="Awesome Image" /></a>
+                        <a href="/" className="footer-logo"><img style={{height: 40}} src="/images/logo2.png" alt="Awesome Image" /></a>
                         <span>&copy; 2024 <a href="#">13cabssydney.com</a></span>
                     </div>
                     <div className="right-block">

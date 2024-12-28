@@ -331,14 +331,13 @@ export default function Home() {
 
     return (
         <>
-        <h1 style={{fontSize: 0}}>Enjoy your comfortable regular transfers  taxi in Sydney</h1>
         <section className="main-banner-wrapper">
             <Slider className="banner-style-one" slidesNumber={1}>
                 <div className="slide" style={{backgroundImage: "url('/img/slider/slider-1-2.jpg')"}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <h3 className="banner-title">Enjoy your reliable regular <br /> transfers taxi Sydney</h3>
+                                <h1 className="banner-title">Enjoy your reliable regular <br /> transfers taxi Sydney</h1>
                                 <p>Welcome to the most trusted and Reliable taxi service company</p>
                                 <div className="btn-block">
                                     <a href="#" className="banner-btn">Learn More</a>

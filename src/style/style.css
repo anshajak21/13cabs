@@ -2619,8 +2619,15 @@ hr.style-one {
 }
 
 .about-style-two {
-  padding-top: 120px;
+  padding-top: 40px;
   padding-bottom: 120px;
+}
+.car-cards-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
 }
 .about-style-two .image-block {
   margin-left: 30px;

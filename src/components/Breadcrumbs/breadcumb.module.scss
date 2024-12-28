@@ -1,7 +1,7 @@
 .breadcrumb {
   list-style: none;
   overflow: hidden;
-  background: var(--theme-light2-color);
+  background: #ffc481;
   li {
     float: left;
     a {
@@ -9,11 +9,12 @@
       font-weight: 600;
       color: var(--black-color);
       text-decoration: none;
-      padding: 10px 0 10px 50px;
-      background: var(--theme-light-color);
+      padding: 5px 0 5px 40px;
+      background: var(--theme-color);
       position: relative;
       display: block;
       float: left;
+      text-transform: capitalize;
       &::after {
         content: ' ';
         display: block;
@@ -21,7 +22,7 @@
         height: 0;
         border-top: 50px solid transparent; /* Go big on the size, and let overflow hide */
         border-bottom: 50px solid transparent;
-        border-left: 30px solid var(--theme-light-color);
+        border-left: 30px solid var(--theme-color);
         position: absolute;
         top: 50%;
         margin-top: -50px;
@@ -44,10 +45,10 @@
         z-index: 1;
       }
       &:hover {
-        background: var(--theme-green-color);
+        background: var(--black-color);
         color: var(--white-color);
         &:after {
-          border-left-color: var(--theme-green-color) !important;
+          border-left-color: var(--black-color) !important;
         }
         &:before {
           border-left-color: var(--white-color) !important;
