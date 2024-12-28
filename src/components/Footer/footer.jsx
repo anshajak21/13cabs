@@ -97,8 +97,8 @@ const Footer = async() => {
             <div className="container">
                 <div className="inner-container">
                     <div className="left-block">
-                        <a href="/" className="footer-logo"><img src="/img/resources/logo-1-1.png" alt="Awesome Image" /></a>
-                        <span>&copy; 2020 <a href="#">Tonatheme.com</a></span>
+                        <a href="/" className="footer-logo"><img src="/images/logo.png" alt="Awesome Image" /></a>
+                        <span>&copy; 2024 <a href="#">13cabssydney.com</a></span>
                     </div>
                     <div className="right-block">
                         <ul className="link-lists">
