@@ -24,8 +24,8 @@ export async function generateMetadata({ params }) {
         description: "Need a cab in Sydney? Apex Maxi offers 24/7 affordable taxi services with easy online booking. Wherever you are, book your ride quickly and hassle-free.",
         keywords: "Sydney taxi service, Affordable cabs Sydney, Book a taxi Sydney, 24/7 taxi service Sydney, Sydney airport transfers, Fast taxi booking",
         robots: {
-          index: true,
-          follow: true,
+          index: false,
+          follow: false,
         },
         openGraph: {
             title: "Apex Maxi",
