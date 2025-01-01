@@ -9,8 +9,8 @@ import '@/style/datepicker.scss';
 import Breadcrumbs from '@/components/Breadcrumbs/breadcrumbs';
 
 export const metadata = {
-    title: "Apex Maxi Cabs Sydney | Affordable & Reliable Group Transport",
-    description: "Book your reliable Apex Maxi Cabs in Sydney for group travel. Affordable, spacious, and available 24/7. Experience safe, convenient rides for all occasions! Call now.",
+    title: "Reliable taxi in Sydney | 13Cabs Sydney Taxi Service",
+    description: "Going to book a cab in Sydney? 13Cabs Sydney works 24/7, providing affordable taxi services with easy booking. Safest, reliable, and stress-free taxi ride in Sydney.",
     keywords: "Sydney taxi service, Affordable cabs Sydney, Book a taxi Sydney, 24/7 taxi service Sydney, Sydney airport transfers, Fast taxi booking"
 };
 
@@ -333,14 +333,16 @@ export default function Home() {
         <>
         <section className="main-banner-wrapper">
             <Slider className="banner-style-one" slidesNumber={1}>
-                <div className="slide" style={{backgroundImage: "url('/img/slider/slider-1-2.jpg')"}}>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12 text-center">
-                                <h1 className="banner-title">Enjoy your reliable regular <br /> transfers taxi Sydney</h1>
-                                <p>Welcome to the most trusted and Reliable taxi service company</p>
-                                <div className="btn-block">
-                                    <a href="#" className="banner-btn">Learn More</a>
+                <div className="slide-img" style={{backgroundImage: "url('/images/page/home.webp')"}}>
+                    <div className="slide">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-12 text-center">
+                                    <h1 className="banner-title">Enjoy your reliable regular <br /> transfers taxi Sydney</h1>
+                                    <p>Welcome to the most trusted and Reliable taxi service company</p>
+                                    <div className="btn-block">
+                                        <a href="#" className="banner-btn">Learn More</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

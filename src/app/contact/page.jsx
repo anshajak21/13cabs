@@ -16,7 +16,8 @@ export default function Contact() {
         <>
         <section className="main-banner-wrapper">
             <Slider className="banner-style-one" slidesNumber={1}>
-                <div className="slide" style={{backgroundImage: "url('/img/slider/slider-1-2.jpg')"}}>
+                <div className="slide-img" style={{backgroundImage: "url('/images/page/contact.webp')"}}>
+                <div className="slide">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -26,6 +27,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </Slider>
         </section>
