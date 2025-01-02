@@ -1,11 +1,10 @@
-import Breadcrumbs from '../../components/Breadcrumbs/breadcrumbs';
-import '../../style/service.scss';
 import Image from 'next/image';
+import Breadcrumbs from '@/components/Breadcrumbs/breadcrumbs';
 import Slider from '@/components/Slider/slider';
 
 export const metadata = {
-    title: "Apex Maxi Cab - Affordable Maxi Taxi to Sydney Airport",
-    description: "Book Apex Maxi Cab for comfortable, spacious maxi taxi rides to Sydney Airport. Enjoy affordable group transfers with reliable service. Reserve your airport taxi today!",
+    title: "Best taxi service in Sydney 13Cabs Sydney",
+    description: "Choose 13Cabs Sydney for the best taxi service in Sydney. We provide Sydney airport transfers, Baby-seat taxis, wheelchair-accessible taxis, group transfers, and maxi-taxi Sydney services.",
     keywords: "Sydney airport shuttle, Corporate taxi services Sydney, Luxury taxi Sydney, Family taxi service Sydney, Wheelchair accessible taxis Sydney, Group taxi service Sydney"
 };
 export default function Service() {
@@ -73,19 +72,23 @@ export default function Service() {
         <>
         <h1 style={{fontSize:0}}>SYDNEY TAXI SERVICES</h1>
         <section className="main-banner-wrapper">
-            <Slider className="banner-style-one" slidesNumber={1}>
-                <div className="slide" style={{backgroundImage: "url('/img/slider/slider-1-2.jpg')"}}>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <h3 className="banner-title">SYDNEY TAXI SERVICES</h3>
-                                <p>13CabsSydney, the best taxi service option in Sydney you will ever find, 13CabsSydney has a wide range of options to get you at the destination, where you need to go. With our  airport transfers sydney, you can give a stress-free start to your journey. With our cruise transfers, you can sail away in comfort. With our group transfers, we handle and give service to large groups, making it easier to travel and have fun together. Our parcel delivery services provide a reliable and efficient option for your courier needs.</p>
-                                <p>We at 13CabsSydney offer wedding transfers services sydney and race day service for special events. With our taxi service sydney that can be used by people in wheelchairs, we offer wheelchair accessible taxi sydney. Our baby seat taxi Sydney service gives families with young children a safe and comfortable way to get around in Sydney. For any taxi services out there in Sydney, 13cabsSydney is got you covered for everything at a reliable cost.</p>
+            <div className="banner-style-one" slidesNumber={1}>
+                <div className='react-multi-carousel-item--active'>
+                <div className="slide-img" style={{backgroundImage: "url('/images/page/services.webp')"}}>
+                    <div className="slide">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <h3 className="banner-title">SYDNEY TAXI SERVICES</h3>
+                                    <p>13CabsSydney, the best taxi service option in Sydney you will ever find, 13CabsSydney has a wide range of options to get you at the destination, where you need to go. With our  airport transfers sydney, you can give a stress-free start to your journey. With our cruise transfers, you can sail away in comfort. With our group transfers, we handle and give service to large groups, making it easier to travel and have fun together. Our parcel delivery services provide a reliable and efficient option for your courier needs.</p>
+                                    <p>We at 13CabsSydney offer wedding transfers services sydney and race day service for special events. With our taxi service sydney that can be used by people in wheelchairs, we offer wheelchair accessible taxi sydney. Our baby seat taxi Sydney service gives families with young children a safe and comfortable way to get around in Sydney. For any taxi services out there in Sydney, 13cabsSydney is got you covered for everything at a reliable cost.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </Slider>
+                </div>
+            </div>
         </section>
         <Breadcrumbs name="Service" visible={0} />
         <section class="taxi-style-one taxi-page">
@@ -127,7 +130,7 @@ export default function Service() {
                                         <a href="tel:+611300530570" class="book-taxi-btn">Call Now</a>
                                     </div>:
                                     <div className="flex gap-2">
-                                        <a href="/contact" class="book-taxi-btn">Book Now</a>
+                                        <a href="/book-ride" class="book-taxi-btn">Book Now</a>
                                         <a href="tel:+611300530570" class="book-taxi-btn">Call Now</a>
                                     </div>}
                                 </div>

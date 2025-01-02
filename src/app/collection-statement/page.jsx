@@ -2,14 +2,14 @@ import '@/style/tempPage.scss';
 import Breadcrumbs from '@/components/Breadcrumbs/breadcrumbs';
 
 export const metadata = {
-    title: "Apex Maxi collection statement | Reliable Taxi Service in Sydney",
-    description: "Contact Apex Maxi for dependable transportation services in Sydney. Reach us via phone or our online form for taxi bookings, questions, or support."
+    title: "13Cabs Sydneycollection statement | Reliable Taxi Service in Sydney",
+    description: "Contact 13Cabs Sydneyfor dependable transportation services in Sydney. Reach us via phone or our online form for taxi bookings, questions, or support."
 };
 export default function Contact() {
     return (
         <main className="main">
             <div className="container">
-                <h1 className="title">Apex Maxi collection statement</h1>
+                <h1 className="title">13Cabs Sydneycollection statement</h1>
                 <Breadcrumbs visible={0} />
                 <h2>About this privacy policy</h2>
                 <p>To provide our services and conduct our business activities, we have to collect your personal information.</p>

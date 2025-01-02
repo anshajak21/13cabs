@@ -927,11 +927,15 @@ hr.style-one {
   text-align: left;
 }
 
-.banner-style-one .slide {
-  padding-block: 5rem;
+.banner-style-one .slide-img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.banner-style-one .slide {
+  padding-block: 5rem;
+  background-color: #0000008f;
 }
 .banner-style-one .owl-nav {
   display: none;

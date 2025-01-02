@@ -1,11 +1,9 @@
-import '@/style/about.scss';
 import Slider from '@/components/Slider/slider';
 import Breadcrumbs from '@/components/Breadcrumbs/breadcrumbs';
-import Image from 'next/image';
 
 export const metadata = {
-    title: "About Apex Maxi Cab | Reliable Group Transportation",
-    description: "Learn about Apex Maxi Cab, your trusted provider of reliable and affordable group transportation services. Explore our commitment to comfort, safety, and customer satisfaction.",
+    title: "About 13Cabs Sydney - best taxi service in Sydney | Safest and reliable taxi in Sydney",
+    description: "Book a reliable and affordable taxi with 13CabsSydney. Enjoy 24/7 taxi service, fast pickups, and professional drivers for all your transportation needs across Sydney. Call now to book online!",
     keywords: "About Sydney taxi services, Trusted taxi service Sydney, Sydney cab company, Local taxi business Sydney, Reliable transportation Sydney, Why choose Sydney taxis"
 };
 export default function About() {
@@ -46,18 +44,22 @@ export default function About() {
     return (
     <>
     <section className="main-banner-wrapper">
-        <Slider className="banner-style-one" slidesNumber={1}>
-            <div className="slide" style={{backgroundImage: "url('/img/slider/slider-1-2.jpg')"}}>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <h1 className="banner-title">13CabsSydney. TRUSTED TAXI SERVICE</h1>
-                            <p>The best taxi service in Sydney, trusted, safest, and reliable is 13CabsSydney, which is there for you. We ensure hundred percent safe, comfortable, safe, and secure rides. Need to catch a flight or have an urgent meeting? Looking for a smooth ride for your family trip? Surely the safest option for all your needs 13CabsSyndey is there for you. It has covered for you all. We deliver exactly the services you require and never compromise on our services. Available 24/7 Whether you&apos;re traveling solo or with family, we&apos;ve got the right ride for every journey. Easy booking for passengers, just a few taps here and there and we are on board.  Discover Sydney’s premium taxi service with 13CabsSydney. Trusted, reliable, and always on time, we are the first choice for comfort and convenience. Experience a safe, secure, and smoothest ride in Sydney every time. </p>
+        <div className="banner-style-one" slidesNumber={1}>
+            <div className='react-multi-carousel-item--active'>
+            <div className="slide-img" style={{backgroundImage: "url('/images/page/about.webp')"}}>
+                <div className="slide" >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <h1 className="banner-title">13CabsSydney. TRUSTED TAXI SERVICE</h1>
+                                <p>The best taxi service in Sydney, trusted, safest, and reliable is 13CabsSydney, which is there for you. We ensure hundred percent safe, comfortable, safe, and secure rides. Need to catch a flight or have an urgent meeting? Looking for a smooth ride for your family trip? Surely the safest option for all your needs 13CabsSyndey is there for you. It has covered for you all. We deliver exactly the services you require and never compromise on our services. Available 24/7 Whether you&apos;re traveling solo or with family, we&apos;ve got the right ride for every journey. Easy booking for passengers, just a few taps here and there and we are on board.  Discover Sydney’s premium taxi service with 13CabsSydney. Trusted, reliable, and always on time, we are the first choice for comfort and convenience. Experience a safe, secure, and smoothest ride in Sydney every time. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </Slider>
+            </div>
+        </div>
     </section>
     <Breadcrumbs name="About" />
     <section class="about-style-two">

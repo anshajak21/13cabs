@@ -20,12 +20,12 @@ const public_url = process.env.NEXT_PUBLIC_UR;
 export async function generateMetadata({ params }) {
     const currentUrl = `${public_url}${params?.path ? `/${params.path}` : ''}`;
     return {
-        title: "Affordable Sydney Taxi Service | Apex Maxi - Book Your Ride Now",
-        description: "Need a cab in Sydney? Apex Maxi offers 24/7 affordable taxi services with easy online booking. Wherever you are, book your ride quickly and hassle-free.",
+        title: "Reliable taxi in Sydney | 13Cabs Sydney Taxi Service",
+        description: "Going to book a cab in Sydney? 13Cabs Sydney works 24/7, providing affordable taxi services with easy booking. Safest, reliable, and stress-free taxi ride in Sydney.",
         keywords: "Sydney taxi service, Affordable cabs Sydney, Book a taxi Sydney, 24/7 taxi service Sydney, Sydney airport transfers, Fast taxi booking",
         robots: {
-          index: true,
-          follow: true,
+          index: false,
+          follow: false,
         },
         openGraph: {
             title: "Apex Maxi",
