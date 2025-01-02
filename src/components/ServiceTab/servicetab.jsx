@@ -6,7 +6,7 @@ export default function ServiceTab() {
     const taxiSlider = [
         {
             name: "TOYOTA COMMUTER",
-            img: "/images/cars/11-seater.webp",
+            img: "/images/cars/COMMUTER.webp",
             title: "Make it smooth",
             text: "It makes your journey smooth. Have maximum space and better accommodation for your family.",
             link: "tel:+611300530570",
@@ -27,7 +27,7 @@ export default function ServiceTab() {
         },
         {
             name: "TOYOTA TARAGO",
-            img: "/images/cars/7-seater.webp",
+            img: "/images/cars/TARAGO.webp",
             title: "Stylish and Safe",
             text: "Choose Tarago for a stylish and safest ride. Taxi provides high levels of control and assistance.",
             link: "tel:+611300530570",
@@ -48,7 +48,7 @@ export default function ServiceTab() {
         },
         {
             name: "TOYOTA CAMRY",
-            img: "/images/cars/canry.webp",
+            img: "/images/cars/CAMRY.webp",
             title: "Luxurious",
             text: "The Luxurious taxi, one can choose ever. Camry specially designed to provide you a luxurious experience.",
             link: "tel:+611300530570",
@@ -69,7 +69,7 @@ export default function ServiceTab() {
         },
         {
             name: "KIA CARNIVAL",
-            img: "/images/cars/kiac.webp",
+            img: "/images/cars/CARNIVAL.webp",
             title: "The big bash",
             text: "It is known as BIG BASH. always ready for family, friends and all the luggage on trips and tours.",
             link: "tel:+611300530570",
@@ -102,7 +102,7 @@ export default function ServiceTab() {
                     {taxiSlider.map((taxi, index)=>(
                         <div className="single-taxi-one mx-2" key={`taxi-${index}`}>
                             <div className="inner-content">
-                                <img src="/img/pricing/pricing-1-1.png" alt="Awesome Image" />
+                                <img src={taxi.img} alt={taxi.name} style={{aspectRatio:"2/1.3", objectFit:"contain"}} />
                                 <h3>{taxi.name}</h3>
                                 <p style={{fontSize:0}}>{taxi.text}</p>
                                 <ul className="feature-list">

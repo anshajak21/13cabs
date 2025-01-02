@@ -213,10 +213,10 @@ const Header = () => {
                         </nav>
                         </div>
                         <div className="">
-                            <a className="dtbtn" href="/contact">
+                            <a className="dtbtn" href="/book-ride">
                             BOOK A TAXI
                             </a>
-                            <a className="dtbtn" href="/contact">
+                            <a className="dtbtn" href="/book-ride">
                             GET A QUOTE
                             </a>
                         </div>

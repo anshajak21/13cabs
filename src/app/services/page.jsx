@@ -1,11 +1,10 @@
-import Breadcrumbs from '../../components/Breadcrumbs/breadcrumbs';
-import '../../style/service.scss';
 import Image from 'next/image';
+import Breadcrumbs from '@/components/Breadcrumbs/breadcrumbs';
 import Slider from '@/components/Slider/slider';
 
 export const metadata = {
-    title: "Apex Maxi Cab - Affordable Maxi Taxi to Sydney Airport",
-    description: "Book Apex Maxi Cab for comfortable, spacious maxi taxi rides to Sydney Airport. Enjoy affordable group transfers with reliable service. Reserve your airport taxi today!",
+    title: "Best taxi service in Sydney 13Cabs Sydney",
+    description: "Choose 13Cabs Sydney for the best taxi service in Sydney. We provide Sydney airport transfers, Baby-seat taxis, wheelchair-accessible taxis, group transfers, and maxi-taxi Sydney services.",
     keywords: "Sydney airport shuttle, Corporate taxi services Sydney, Luxury taxi Sydney, Family taxi service Sydney, Wheelchair accessible taxis Sydney, Group taxi service Sydney"
 };
 export default function Service() {
@@ -73,7 +72,8 @@ export default function Service() {
         <>
         <h1 style={{fontSize:0}}>SYDNEY TAXI SERVICES</h1>
         <section className="main-banner-wrapper">
-            <Slider className="banner-style-one" slidesNumber={1}>
+            <div className="banner-style-one" slidesNumber={1}>
+                <div className='react-multi-carousel-item--active'>
                 <div className="slide-img" style={{backgroundImage: "url('/images/page/services.webp')"}}>
                     <div className="slide">
                         <div className="container">
@@ -87,7 +87,8 @@ export default function Service() {
                         </div>
                     </div>
                 </div>
-            </Slider>
+                </div>
+            </div>
         </section>
         <Breadcrumbs name="Service" visible={0} />
         <section class="taxi-style-one taxi-page">
@@ -129,7 +130,7 @@ export default function Service() {
                                         <a href="tel:+611300530570" class="book-taxi-btn">Call Now</a>
                                     </div>:
                                     <div className="flex gap-2">
-                                        <a href="/contact" class="book-taxi-btn">Book Now</a>
+                                        <a href="/book-ride" class="book-taxi-btn">Book Now</a>
                                         <a href="tel:+611300530570" class="book-taxi-btn">Call Now</a>
                                     </div>}
                                 </div>

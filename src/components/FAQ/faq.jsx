@@ -42,7 +42,7 @@ export default function FAQ({faqs}) {
                 <div className="witr_section_title">
                     <div className="greenHead witr_section_title_inner text-center">
                         <h2>FAQ&apos;s</h2>
-                        <h3>FAQs About Apex Maxi <span>Services</span></h3>
+                        <h3>FAQs About 13Cabs Sydney<span>Services</span></h3>
                     </div>
                 </div>
                 <div className="faq-section-content">

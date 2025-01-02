@@ -2,8 +2,8 @@ import '@/style/tempPage.scss';
 import Breadcrumbs from '@/components/Breadcrumbs/breadcrumbs';
 
 export const metadata = {
-    title: "Apex Maxi Privacy policy | Reliable Taxi Service in Sydney",
-    description: "Contact Apex Maxi for dependable transportation services in Sydney. Reach us via phone or our online form for taxi bookings, questions, or support."
+    title: "13Cabs SydneyPrivacy policy | Reliable Taxi Service in Sydney",
+    description: "Contact 13Cabs Sydneyfor dependable transportation services in Sydney. Reach us via phone or our online form for taxi bookings, questions, or support."
 };
 export default function Contact() {
     return (
@@ -12,7 +12,7 @@ export default function Contact() {
                 <h1 className="title">Privacy policy</h1>
                 <Breadcrumbs visible={0} />
                 <h2>About this privacy policy</h2>
-                <p>Apex Maxi provides services regarding standard taxis, luxurious taxis, airport taxis, maxi-taxi, and wheel-chair taxis in Sydney, Australia.</p>
+                <p>13Cabs Sydneyprovides services regarding standard taxis, luxurious taxis, airport taxis, maxi-taxi, and wheel-chair taxis in Sydney, Australia.</p>
                 
                 <h2>Booking and reservation </h2>
                 <p>This type of personal information we may collect and hold to provide you services.</p>
@@ -65,7 +65,7 @@ export default function Contact() {
                     <li><p>For legal obligation and to enforce our terms and conditions.</p></li>
                     <li><p>To study your interaction with our website, to make it smooth for the user.</p></li>
                 </ol>
-                <p><b>Mode of payment:</b> Apex Maxi accepts various methods of payment.</p>
+                <p><b>Mode of payment:</b> 13Cabs Sydneyaccepts various methods of payment.</p>
                 <ul>
                     <li><p>Cash</p></li>
                     <li><p>Credit/Debit cards </p></li>
@@ -88,7 +88,7 @@ export default function Contact() {
                 </ul>
 
                 <h2>Regarding the changes in the privacy policy</h2>
-                <p>Apex Maxi may, from time to time, update its privacy policy. All your information will be governed by a new updated privacy policy. So you are requested to visit regularly to check our privacy policy.</p>
+                <p>13Cabs Sydneymay, from time to time, update its privacy policy. All your information will be governed by a new updated privacy policy. So you are requested to visit regularly to check our privacy policy.</p>
 
                 <h2>Have a query about our privacy policy?</h2>
                 <p>Feel free to contact us anytime </p>

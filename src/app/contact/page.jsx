@@ -1,21 +1,20 @@
 import '@/style/contact.scss';
-import ContactForm from '@/components/ContactForm/contactForm';
-import Image from 'next/image';
 import '@/style/datepicker.scss';
 import Breadcrumbs from '@/components/Breadcrumbs/breadcrumbs';
 import Script from 'next/script';
 import Slider from '@/components/Slider/slider';
 
 export const metadata = {
-    title: "Contact Apex Maxi Cab | 24/7 Cab Service in Sydney - Call 2 8188 3546",
-    description: "Need a cabin Sydney? Contact Apex Maxi Cab at 2 8188 3546 for 24/7 service. We're here to provide safe, efficient, and reliable maxi cab transport when you need it.",
+    title: "Contact taxi service of Sydney | Contact 13Cabs Sydney",
+    description: "Get in touch with 13Cabs Sydney for reliable taxi services. Contact us for booking, enquiries, or support – your trusted partner for safe and convenient travel in Sydney.",
     keywords: "Contact Sydney taxi service, Sydney taxi phone number, Taxi service inquiries Sydney, Book a taxi online Sydney, Sydney taxi support, Sydney cab reservation"
 };
 export default function Contact() {
     return (
         <>
         <section className="main-banner-wrapper">
-            <Slider className="banner-style-one" slidesNumber={1}>
+            <div className="banner-style-one" slidesNumber={1}>
+                <div className='react-multi-carousel-item--active'>
                 <div className="slide-img" style={{backgroundImage: "url('/images/page/contact.webp')"}}>
                 <div className="slide">
                     <div className="container">
@@ -29,7 +28,8 @@ export default function Contact() {
                     </div>
                 </div>
                 </div>
-            </Slider>
+                </div>
+            </div>
         </section>
         <Breadcrumbs name="Contact" />
         <section class="contact-form-style-one">
