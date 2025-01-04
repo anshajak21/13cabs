@@ -3088,6 +3088,8 @@ hr.style-one {
 .single-taxi-one .inner-content .taxiCard-imgs-img {
   width: 100%;
   height: auto;
+  aspect-ratio: 2 / 1.2;
+  object-fit: contain;
 }
 .single-taxi-one .inner-content img {
   margin-inline: auto;
