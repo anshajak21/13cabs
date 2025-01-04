@@ -71,10 +71,27 @@ const Footer = async() => {
                             <div className="widget-title">
                                 <h3>Contact</h3>
                             </div>
-                            <p>86 Road Broklyn Street, 600 <br/> New York, USA</p>
+                            <div className="flex gap-2 items-center">
+                                <svg fill="#fff" width="17" height="17" viewBox="0 0 0.298 0.298" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M.149.021a.08.08 0 0 0-.072.114l.072.141L.22.137A.08.08 0 0 0 .149.021m0 .128a.048.048 0 1 1 0-.096.048.048 0 0 1 0 .096"/>
+                                </svg>
+                                <a href="https://maps.app.goo.gl/kSqLyUW2NNF61nPVA" target="_blank" rel="noopener noreferrer">
+                                <p>7/46-48 Restwell St, Bankstown NSW 2200, Australia</p>
+                                </a>
+                            </div>
                             <ul className="contact-infos">
-                                <li><i className="fa fa-envelope"></i> needhelp@conexi.com</li>
-                                <li><i className="fa fa-phone-square"></i> 666 888 000</li>
+                                <li><a href="mailto:info@apexcabs.com.au" className="flex gap-2 items-center mt-2">
+                                    <svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve">
+                                    <path d="M5.116 3.782C3.289 4.823 1.437 5.882.994 6.133l-.803.46-.013 4.26-.008 4.261h16.66l-.009-4.261-.013-4.265-.716-.403-4.135-2.356c-1.879-1.072-3.44-1.948-3.471-1.944-.026 0-1.544.855-3.371 1.896m6.969.869c1.918 1.089 3.488 1.996 3.488 2.013 0 .039-7.015 5.089-7.072 5.089s-7.072-5.05-7.072-5.089c.004-.056 7.05-4.043 7.111-4.022.03.013 1.627.915 3.545 2.009"/>
+                                    </svg>
+                                    <p>info@apexcabs.com.au</p>
+                                </a></li>
+                                <li><a href="tel:+61281883546" className="flex gap-2 items-center mt-2">
+                                    <svg fill="#fff" width="17" height="17" viewBox="0 0 0.34 0.34" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M.259.213C.236.211.223.243.206.251.179.266.128.213.128.213S.074.162.087.134C.098.117.13.104.127.081.125.06.078-.017.055.004.004.051 0 .07 0 .108c-.002.066.083.149.083.149.009.009.083.085.149.083C.27.34.289.336.336.285.357.262.283.215.259.213"/>
+                                    </svg>
+                                    <p>2 8188 3546</p>
+                                </a></li>
                             </ul>
                         </div>
                     </div>

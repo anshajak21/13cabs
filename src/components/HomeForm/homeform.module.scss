@@ -1,53 +1,12 @@
 .homeForm :global {
   position: relative;
-  .shadow-lg, .shadow-sm {
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-.shadow-lg {
-    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
-    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-}
-
-.bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.border-gray-300 {
-    --tw-border-opacity: 1;
-    border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-.border {
-    border-width: 1px;
-}
-.rounded-lg {
-    border-radius: .5rem;
-}
-.w-full {
-    width: 100%;
-}
-.mt-1 {
-    margin-top: .25rem;
-}
-.z-10 {
-    z-index: 10;
-}
-.absolute {
-    position: absolute;
-}
-.py-2 {
-  padding-bottom: .5rem;
-  padding-top: .5rem;
-}
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.cursor-pointer {
-  cursor: pointer;
-}
 
   @media (max-width: 786px) {
     width: 100%;
+  }
+
+  .dropdown-list, .select-btn * {
+    cursor: pointer;
   }
 
   .switch-group {
@@ -100,7 +59,7 @@
   }
 
   .switch-group > input:checked + .switch-button {
-    background-color: #7ed321;
+    background-color: #1eb05c;
   }
 
   .switch-group > input:checked + .switch-button::before {
@@ -116,7 +75,7 @@
 
   .switch-group > span {
     margin-left: 8px;
-    color: #333;
+    color: #393d46;
     font-weight: 700;
   }
 
@@ -142,37 +101,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-
-    .input-with-icon {
-      background-color: #ffffff;
-      border: 1.3px solid black;
-      border-radius: 20px;
-      overflow: hidden;
-    }
-    // label {
-    //   color: #ccc !important;
-    // }
-    input {
-      // background-color: transparent !important;
-      // color: #eee;
-      // &::placeholder {
-      //   color: #ccc;
-      // }
-    }
-    svg {
-      fill: #f58200;
-    }
-    .input-with-icon svg {
-      // fill: white;
-      // width: 16px;
-      // height: 16px;
-      width: 20px;
-      height: 20px;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 12px;
-    }
   }
 
   form .form-group label:not(.switch-button) {
@@ -190,14 +118,13 @@
   }
 
   form .form-group input {
-    color: #333;
     border: 0 !important;
     outline: none !important;
     flex: 1;
     width: 0;
     height: 100%;
     padding-left: 40px;
-    font-size: 0.9rem;
+    font-size: 1.06em;
   }
 
   form .form-group input.radius-up {
@@ -211,7 +138,7 @@
   }
 
   form .form-group input::placeholder {
-    color: #333;
+    color: #525660;
     font-weight: 500;
   }
 
@@ -238,20 +165,17 @@
     // }
   }
 
-  form .form-group .information svg {
+  form .form-group .information img {
     width: 100%;
     height: 100%;
-    fill: #7ed321;
   }
 
   form .form-group .information::before {
     position: absolute;
-    background-color: #7ed321;
-    color: #ffffff;
+    background-color: #2ecb70;
+    color: #fff;
     white-space: nowrap;
     border-radius: 8px;
-    font-size: 0.9rem;
-    padding: 0.2rem 0.5rem;
     z-index: 1;
   }
 
@@ -274,7 +198,7 @@
     height: 0;
     border-style: solid;
     border-width: 8px 5px 0 5px;
-    border-color: #7ed321 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-color: #2ecb70 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
   }
 
   form .form-group .information.bottom:hover::before {
@@ -297,7 +221,7 @@
     height: 0;
     border-style: solid;
     border-width: 0 5px 8px 5px;
-    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #7ed321 rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #2ecb70 rgba(0, 0, 0, 0);
     z-index: 9999;
   }
 
@@ -306,9 +230,8 @@
     display: flex;
     align-items: center;
     height: 42px;
-    // border: 1px solid #000;
+    border: 1px solid #c9cbcf;
     border-radius: 8px;
-    gap: 0;
   }
 
   form .form-group > div:not(.switch-group) > img:first-child {
@@ -340,7 +263,7 @@
 
   form .form-group > div:not(.switch-group).select-btn::before {
     content: "";
-    background-image: url("/img/svg/arrow-bottom.svg");
+    background-image: url("/images/svg/arrow-bottom.svg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 13px;
@@ -459,8 +382,8 @@
     width: 18px;
     height: 18px;
     background: none;
-    border: 2px solid #000;
-    color: #000;
+    border: 2px solid #c9cbcf;
+    color: #c9cbcf;
     font-weight: 600;
     font-size: 14px;
     line-height: 1;
@@ -602,7 +525,7 @@
   form .embedded-form-group-container {
     flex-wrap: wrap;
     position: relative;
-    border: 1px solid #000;
+    border: 1px solid #c9cbcf;
     border-radius: 8px;
   }
 
@@ -638,13 +561,13 @@
     left: 40px;
     right: 0;
     height: 1px;
-    background-color: #000;
+    background-color: #c9cbcf;
   }
 
   form .embedded-form-group-container .change-btn {
     position: absolute;
     top: calc(50% - 20px);
-    background: #f58200;
+    background: #2ecb70;
     width: 40px;
     border-radius: 50%;
     height: 40px;
@@ -677,20 +600,6 @@
     background-color: #f58200;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, .301));
   }
-  @media (max-width: 786px) {
-    form .btn-submit, form .btn-submit-r {
-      font-size: 1rem;
-    }
-    form .form-group-container {
-      flex-direction: column;
-      gap: 20px;
-    }
-    form .form-group-container .form-group, form .form-group-container .form-group + .form-group  {
-      margin: 0;
-      width: 100%;
-      max-width: 100%;
-    }
-  }
   .bold-800 {
     font-weight: 800;
   }
@@ -704,26 +613,26 @@
   }
 
 
-  .search-location-form h4 {
+  .search-location-form h3 {
     margin-bottom: 16px;
     font-size: 1.375em;
     order: -1;
   }
 
-  .search-location-form h4 span.coupon-text {
+  .search-location-form h3 span.coupon-text {
     display: block;
     font-size: 12px;
     color: tomato;
     font-weight: 500;
   }
 
-  .search-location-form h4 span.coupon-text strong {
+  .search-location-form h3 span.coupon-text strong {
     font-weight: 900;
     font-size: 14px;
   }
   .form-submit:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--black-color);
+    color: var(--theme-color);
   }
 
   .time-item, .return-time-item {
@@ -732,7 +641,7 @@
     cursor: pointer;
   }
   .time-item:hover, .return-time-item:hover {
-    background-color: var(--theme-dark-color);
+    background-color: var(--theme-active-color);
   }
   
   .dropdown-passengers::-webkit-scrollbar {
@@ -742,7 +651,7 @@
   .form-group textarea {
     max-height: 83px;
     min-height: 83px;
-    border: 1px solid #000;
+    border: 1px solid #c9cbcf;
     border-radius: 8px;
     position: relative;
     padding-inline: 10px;
@@ -764,7 +673,7 @@
     .search-location-form form {
       width: 100%;
     }
-    .search-location-form h4 {
+    .search-location-form h3 {
       margin-right: 16px;
     }
   }

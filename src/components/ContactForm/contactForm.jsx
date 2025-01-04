@@ -13,13 +13,20 @@ const ContactForm = () => {
         <div className="search-location-form">
             {/* <h4 className="bold-800">Pre-book your Ride
             </h4> */}
-            <form autoComplete="off" name="form-search" id="form-search" className="validate">
+            <form autoComplete="off" name="form-advance-booking" id="form-advance-booking" className="validate">
                 <div className="form-group-container">
                     <div className="form-group">
                         <label htmlFor="Name">Name</label>
                         <div className="input-with-icon">
                             <Image width={2000} height={1000} src="/images/svg/user.svg" alt="user icon" />
                             <input type="text" placeholder="" name="Name" id="Name" required />
+                        </div>
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="Mobile-No">Mobile</label>
+                        <div className="input-with-icon">
+                            <Image width={2000} height={1000} src="/images/svg/phone.svg" alt="phone icon" />
+                            <input type="tel" placeholder="" name="Mobile-No" id="Mobile-No" required />
                         </div>
                     </div>
                 </div>
@@ -32,10 +39,19 @@ const ContactForm = () => {
                         </div>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="Mobile-No">Mobile NO.</label>
-                        <div className="input-with-icon">
-                            <Image width={2000} height={1000} src="/images/svg/phone.svg" alt="phone icon" />
-                            <input type="tel" placeholder="" name="Mobile-No" id="Mobile-No" required />
+                        <label htmlFor="cab-type">Cab Type</label>
+                        <div className="input-with-icon select-btn">
+                            <Image width={2000} height={1000} src="/images/svg/cab.svg" alt="cab icon" />
+                            <input type="text" placeholder="Select Cab" name="Cab-Type" id="cab-type" readOnly autoComplete="off" />
+                        </div>
+
+                        <div className="dropdown-list dropdown-passengers" id="dropdown-cab-type">
+                            <ul style={{display: "block", width: "100%", textAlign: "center"}}>
+                                <li className="cab-type-item">Toyota Commuter</li>
+                                <li className="cab-type-item">Toyota Tarago  </li>
+                                <li className="cab-type-item">Toyota Camry   </li>
+                                <li className="cab-type-item">Kia Carnival   </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -82,18 +98,27 @@ const ContactForm = () => {
                         </div>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="cabType">Cab Type</label>
+                        <label htmlFor="occasion">Occasion</label>
                         <div className="input-with-icon select-btn">
-                            <Image width={2000} height={1000} src="/images/svg/cab.svg" alt="cab icon" />
-                            <input type="text" placeholder="Select Cab" name="Cab-Type" id="cabType" readOnly autoComplete="off" />
+                            <Image width={2000} height={1000} src="/images/svg/calendar2.svg" alt="cab icon" />
+                            <input type="text" placeholder="Select Occasion" name="Occasion" id="occasion" readOnly autoComplete="off" />
                         </div>
 
-                        <div className="dropdown-list dropdown-passengers" id="dropdown-cab-type">
-                            <ul style={{display: "block", with: "100%", textAlign: "center"}}>
-                                <li className="cab-type-item">Toyota Commuter</li>
-                                <li className="cab-type-item">Toyota Tarago  </li>
-                                <li className="cab-type-item">Toyota Camry   </li>
-                                <li className="cab-type-item">Kia Carnival   </li>
+                        <div className="dropdown-list dropdown-passengers" id="dropdown-occasion">
+                            <ul style={{display: "block", width: "100%", textAlign: "center"}}>
+                                <li className="occasion-item">Regular</li>
+                                <li className="occasion-item">Airport Transfer</li>
+                                <li className="occasion-item">Point to Point</li>
+                                <li className="occasion-item">Wedding</li>
+                                <li className="occasion-item">Wine Tour</li>
+                                <li className="occasion-item">Corporate</li>
+                                <li className="occasion-item">Prom</li>
+                                <li className="occasion-item">Business</li>
+                                <li className="occasion-item">Concert</li>
+                                <li className="occasion-item">Anniversary</li>
+                                <li className="occasion-item">Birthday</li>
+                                <li className="occasion-item">Night on the Town</li>
+                                <li className="occasion-item">Bachelor Party</li>
                             </ul>
                         </div>
                     </div>
@@ -140,7 +165,7 @@ const ContactForm = () => {
                                     </div>
 
                                     <div className="dropdown-list dropdown-passengers" id="dropdown-return-cab-type">
-                                        <ul style={{display: "block", with: "100%", textAlign: "center"}}>
+                                        <ul style={{display: "block", width: "100%", textAlign: "center"}}>
                                             <li className="return-cab-type-item">Toyota Commuter</li>
                                             <li className="return-cab-type-item">Toyota Tarago</li>
                                             <li className="return-cab-type-item">Toyota Camry</li>
@@ -243,7 +268,7 @@ const ContactForm = () => {
                                     <div className="passenger-left">
                                         <span>Luggage</span>
                                     </div>
-                                    <div className="passenger-right count-container" id="large">
+                                    <div className="passenger-right count-container" id="luggage">
                                         <button type="button" className="decrease" data-type="decrease" data-input-id="baggage" data-id="luggage">-</button>
                                         <span className="count">1</span>
                                         <button type="button" className="increase" data-type="increase" data-input-id="baggage" data-id="luggage">+</button>
@@ -298,7 +323,7 @@ const ContactForm = () => {
                     <input type="hidden" name="Bicycle" id="baggage-bicycle" value="0" placeholder="bicycle" />
                     <input type="hidden" name="Golf-Bags" id="baggage-golf-bags" value="0" placeholder="golf-bags" />
                 </div>
-                <div className="form-group-container" style={{justifyContent: "space-evenly"}}>
+                {/* <div className="form-group-container" style={{justifyContent: "space-evenly"}}>
                     <div className="form-group">
                         <div className="switch-group">
                             <input name="Baby-Seat" id="baby-seat" type="checkbox" />
@@ -313,7 +338,40 @@ const ContactForm = () => {
                             <span>Baby Capsule</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <div className="form-group-container" style={{justifyContent: "space-evenly"}}>
+                    <div className="form-group">
+                        <label htmlFor="wheelchairs">Wheelchair</label>
+                        <div className="input-with-icon select-btn">
+                            <Image width={2000} height={1000} src="/images/svg/icon/wheelchair.svg" alt="cab icon" />
+                            <input type="text" placeholder="Select Wheelchair" name="Wheelchair" id="wheelchairs" readOnly autoComplete="off" />
+                        </div>
+
+                        <div className="dropdown-list dropdown-passengers" id="dropdown-wheelchairs">
+                            <ul style={{display: "block", width: "100%", textAlign: "center"}}>
+                                <li className="wheelchairs-item">Manual Wheelchair</li>
+                                <li className="wheelchairs-item">ELectric Wheelchair</li>
+                                <li className="wheelchairs-item">No Wheelchair</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="carseat">Car Seat</label>
+                        <div className="input-with-icon select-btn">
+                            <Image width={2000} height={1000} src="/images/svg/icon/baby.svg" alt="cab icon" />
+                            <input type="text" placeholder="Select Car seat" name="Car_seat" id="carseat" readOnly autoComplete="off" />
+                        </div>
+
+                        <div className="dropdown-list dropdown-passengers" id="dropdown-carseat">
+                            <ul style={{display: "block", width: "100%", textAlign: "center"}}>
+                                <li className="carseat-item">Baby Seat</li>
+                                <li className="carseat-item">Baby Capsule</li>
+                                <li className="carseat-item">Seat and Capsule</li>
+                                <li className="carseat-item">No Seat and Capsule</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
                 <div className="form-group-container">
                     <div className="form-group">
                         <label htmlFor="noteForDriver">Note</label>
@@ -321,8 +379,8 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="form-group-container">
-                    <button type="submit" className="btn btn-submit form-submit" id="search-button" data-form="form-search" data-subject="ApexMaxiCabs - Advance Booking Request">BOOK NOW</button>
-                    <button type="submit" className="btn btn-submit-r form-submit" id="search-button" data-form="form-search" data-subject="ApexMaxiCabs - Request a Quote for Advance Booking">Get A Quote</button>
+                    <button type="submit" className="btn btn-submit form-submit" id="booking-button" data-form="form-booking" data-subject="13CabsSydney - Advance Booking Request">BOOK NOW</button>
+                    <button type="submit" className="btn btn-submit-r form-submit" id="quote-button" data-form="form-quote" data-subject="13CabsSydney - Request a Quote for Advance Booking">Get A Quote</button>
                 </div>
             </form>
         </div>
