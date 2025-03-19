@@ -71,14 +71,6 @@ const Footer = async() => {
                             <div className="widget-title">
                                 <h3>Contact</h3>
                             </div>
-                            <div className="flex gap-2 items-center">
-                                <svg fill="#fff" width="17" height="17" viewBox="0 0 0.298 0.298" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M.149.021a.08.08 0 0 0-.072.114l.072.141L.22.137A.08.08 0 0 0 .149.021m0 .128a.048.048 0 1 1 0-.096.048.048 0 0 1 0 .096"/>
-                                </svg>
-                                <a href="https://maps.app.goo.gl/kSqLyUW2NNF61nPVA" target="_blank" rel="noopener noreferrer">
-                                <p>7/46-48 Restwell St, Bankstown NSW 2200, Australia</p>
-                                </a>
-                            </div>
                             <ul className="contact-infos">
                                 <li><a href="mailto:info@apexcabs.com.au" className="flex gap-2 items-center mt-2">
                                     <svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve">

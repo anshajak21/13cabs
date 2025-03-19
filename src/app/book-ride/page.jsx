@@ -2,8 +2,8 @@ import Breadcrumbs from '@/components/Breadcrumbs/breadcrumbs';
 import ContactForm from '@/components/ContactForm/contactForm';
 
 export const metadata = {
-    title: "Best taxi service in Sydney 13Cabs Sydney",
-    description: "Choose 13Cabs Sydney for the best taxi service in Sydney. We provide Sydney airport transfers, Baby-seat taxis, wheelchair-accessible taxis, group transfers, and maxi-taxi Sydney services.",
+    title: "Best taxi service in Sydney 13CabsSydney",
+    description: "Choose 13CabsSydney for the best taxi service in Sydney. We provide Sydney airport transfers, Baby-seat taxis, wheelchair-accessible taxis, group transfers, and maxi-taxi Sydney services.",
     keywords: "Sydney airport shuttle, Corporate taxi services Sydney, Luxury taxi Sydney, Family taxi service Sydney, Wheelchair accessible taxis Sydney, Group taxi service Sydney"
 };
 export default function BookRide() {

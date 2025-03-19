@@ -5,8 +5,8 @@ import Script from 'next/script';
 import Slider from '@/components/Slider/slider';
 
 export const metadata = {
-    title: "Contact taxi service of Sydney | Contact 13Cabs Sydney",
-    description: "Get in touch with 13Cabs Sydney for reliable taxi services. Contact us for booking, enquiries, or support – your trusted partner for safe and convenient travel in Sydney.",
+    title: "Contact taxi service of Sydney | Contact 13CabsSydney",
+    description: "Get in touch with 13CabsSydney for reliable taxi services. Contact us for booking, enquiries, or support – your trusted partner for safe and convenient travel in Sydney.",
     keywords: "Contact Sydney taxi service, Sydney taxi phone number, Taxi service inquiries Sydney, Book a taxi online Sydney, Sydney taxi support, Sydney cab reservation"
 };
 export default function Contact() {

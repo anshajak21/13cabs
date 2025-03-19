@@ -2,7 +2,7 @@ import Slider from '@/components/Slider/slider';
 import Breadcrumbs from '@/components/Breadcrumbs/breadcrumbs';
 
 export const metadata = {
-    title: "About 13Cabs Sydney - best taxi service in Sydney | Safest and reliable taxi in Sydney",
+    title: "About 13CabsSydney - best taxi service in Sydney | Safest and reliable taxi in Sydney",
     description: "Book a reliable and affordable taxi with 13CabsSydney. Enjoy 24/7 taxi service, fast pickups, and professional drivers for all your transportation needs across Sydney. Call now to book online!",
     keywords: "About Sydney taxi services, Trusted taxi service Sydney, Sydney cab company, Local taxi business Sydney, Reliable transportation Sydney, Why choose Sydney taxis"
 };
@@ -12,13 +12,13 @@ export default function About() {
             'img': "/img/resources/history-1-1.jpg",
             'date': "August, 2019",
             'title': "Our Sydney Launch",
-            'text': "In August 2019, 13Cabs Sydney opened its doors with a historic vision to change the nature of taxi services in Sydney. Beginning with a meager fleet, we soon realized the growing demand for reliable, safe, and efficient transportation. With demand came our growth too-expansion of fleet size to meet the needs of our growing customer base.\nOur commitment is customer satisfaction; it is part of everything we do. The commitment provides a strong impetus for ensuring that whatever service we provide is best for all Sydney residents and visitors every day. Whether it is a short trip across town or a long journey, we are here to provide you with reliable, comfortable rides you can count on."
+            'text': "In August 2019, 13CabsSydney opened its doors with a historic vision to change the nature of taxi services in Sydney. Beginning with a meager fleet, we soon realized the growing demand for reliable, safe, and efficient transportation. With demand came our growth too-expansion of fleet size to meet the needs of our growing customer base.\nOur commitment is customer satisfaction; it is part of everything we do. The commitment provides a strong impetus for ensuring that whatever service we provide is best for all Sydney residents and visitors every day. Whether it is a short trip across town or a long journey, we are here to provide you with reliable, comfortable rides you can count on."
         },
         {
             'img': "/img/resources/history-1-1.jpg",
             'date': "February, 2022",
             'title': "Our Development and Devotion",
-            'text': "We have now taken your input and begun to improve it after six months of service. We have strengthened 13Cabs Sydney with some of the best drivers and dispatchers within the industry. Their deep local knowledge brought forth with their commitment and professionalism quickly has become the backbone of service.\nBecause of this commitment to excellence, we can now deliver consistent first-class experiences to our customers. We continue to be dedicated to offering safe, comfortable, enjoyable, and dependable travel for the people and visitors of Sydney as we evolve and grow to meet their demands."
+            'text': "We have now taken your input and begun to improve it after six months of service. We have strengthened 13CabsSydney with some of the best drivers and dispatchers within the industry. Their deep local knowledge brought forth with their commitment and professionalism quickly has become the backbone of service.\nBecause of this commitment to excellence, we can now deliver consistent first-class experiences to our customers. We continue to be dedicated to offering safe, comfortable, enjoyable, and dependable travel for the people and visitors of Sydney as we evolve and grow to meet their demands."
         },
         {
             'img': "/img/resources/history-1-1.jpg",
