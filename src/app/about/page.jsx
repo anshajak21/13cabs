@@ -64,7 +64,7 @@ export default function About() {
     <Breadcrumbs name="About" />
     <section class="about-style-two">
         <div class="container">
-            <div class="row">
+            <div class="row"> 
                 <div class="col-md-6">
                     <div class="content-block">
                         <div class="block-title">
